@@ -1,0 +1,19 @@
+*** "Memtest86+ 4.20/init.c"	2011-01-23 13:11:04.000000000 -0500
+--- safari-memtest-master/init.c	2014-11-23 15:14:56.000000000 -0500
+***************
+*** 235,241 ****
+  	footer();
+  	// Default Print Mode
+  	// v->printmode=PRINTMODE_SUMMARY;
+! 	v->printmode=PRINTMODE_ADDRESSES;
+  	v->numpatn=0;
+  
+  }
+--- 235,241 ----
+  	footer();
+  	// Default Print Mode
+  	// v->printmode=PRINTMODE_SUMMARY;
+! 	v->printmode=PRINTMODE_NONE;
+  	v->numpatn=0;
+  
+  }

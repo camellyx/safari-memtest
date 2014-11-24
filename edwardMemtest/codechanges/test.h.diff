@@ -1,0 +1,54 @@
+*** "Memtest86+ 4.20/test.h"	2011-01-23 13:11:04.000000000 -0500
+--- safari-memtest-master/test.h	2014-11-23 15:14:56.000000000 -0500
+***************
+*** 306,311 ****
+--- 306,332 ----
+  	short         hdr_flag;
+  };
+  
++ //Err range struct
++ #define RANGE 4
++ #define RANGESIZE 100
++ struct range_t {
++ 	ulong   low_addr;
++     struct xadr low_po;
++ 
++ 	ulong   high_addr;
++     struct xadr high_po;
++ 
++     int range_stride;
++     int count_per_range;
++     //Failed bits histogram
++     //hist[0] is lowest bit
++     unsigned long hist[32];
++ };
++ struct err_range_t {
++     int size;
++     struct range_t ranges[RANGESIZE];
++ };
++ 
+  #define X86_FEATURE_PAE		(0*32+ 6) /* Physical Address Extensions */
+  #define MAX_MEM_SEGMENTS E820MAX
+  
+***************
+*** 329,334 ****
+--- 350,356 ----
+  	int tptr;
+  	int beepmode;
+  	struct err_info erri;
++     struct err_range_t err_range;
+  	struct pmap pmap[MAX_MEM_SEGMENTS];
+  	struct mmap map[MAX_MEM_SEGMENTS];
+  	ulong plim_lower;
+***************
+*** 364,367 ****
+  #define CPM_SEQ    3
+  
+  #endif /* __ASSEMBLY__ */
+! #endif /* _TEST_H_ */
+\ No newline at end of file
+--- 386,389 ----
+  #define CPM_SEQ    3
+  
+  #endif /* __ASSEMBLY__ */
+! #endif /* _TEST_H_ */

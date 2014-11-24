@@ -1,0 +1,12 @@
+*** "Memtest86+ 4.20/main.c"	2011-01-23 13:11:04.000000000 -0500
+--- safari-memtest-master/main.c	2014-11-23 15:14:56.000000000 -0500
+***************
+*** 486,491 ****
+--- 486,492 ----
+  		cprint(LINE_PAT, COL_PAT-3, "   ");
+  		/* If this was the last test then we finished a pass */
+  		if (v->test >= 9 || v->testsel >= 0) {
++       get_config();
+  			v->pass++;
+  			dprint(LINE_INFO, COL_PASS, v->pass, 5, 0);
+  			v->test = 0;

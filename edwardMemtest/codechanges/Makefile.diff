@@ -1,0 +1,19 @@
+*** "Memtest86+ 4.20/Makefile"	2011-01-23 13:11:04.000000000 -0500
+--- safari-memtest-master/Makefile	2014-11-23 15:14:56.000000000 -0500
+***************
+*** 43,49 ****
+  	$(CC) -E -traditional $< -o $@
+  
+  memtest.bin: memtest_shared.bin bootsect.o setup.o memtest.bin.lds
+! 	$(LD) -T memtest.bin.lds bootsect.o setup.o -b binary \
+  	memtest_shared.bin -o memtest.bin
+  
+  reloc.o: reloc.c
+--- 43,49 ----
+  	$(CC) -E -traditional $< -o $@
+  
+  memtest.bin: memtest_shared.bin bootsect.o setup.o memtest.bin.lds
+! 	$(LD) -T memtest.bin.lds bootsect.o setup.o -b binary -static \
+  	memtest_shared.bin -o memtest.bin
+  
+  reloc.o: reloc.c
