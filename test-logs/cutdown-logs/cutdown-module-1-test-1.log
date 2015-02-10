@@ -1,0 +1,2028 @@
+2015-01-29 19:57:11 - Finished searching PCI for SMBus Controller
+2015-01-29 19:57:13 - Finished searching PCI for SMBus Controller
+2015-01-29 19:57:58 - *** TEST SESSION - 2015-01-29 19:57:58 ***
+2015-01-29 19:57:58 - Starting pass #1
+2015-01-29 19:57:59 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2015-01-29 19:58:01 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2015-01-29 19:58:07 - Running test #2 (Test 2 [Address test, own address])
+2015-01-29 19:58:13 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2015-01-29 19:58:41 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2015-01-29 20:00:43 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2015-01-29 20:02:53 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2015-01-29 20:04:26 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2015-01-29 20:14:59 - Running test #8 (Test 8 [Random number sequence])
+2015-01-29 20:19:20 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2015-01-29 20:36:00 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2015-01-29 20:36:03 - Starting Stage 0, Pattern=00000000
+2015-01-29 20:36:06 - Finished Stage 0, Pattern=00000000
+2015-01-29 20:41:06 - Starting Stage 1, Pattern=00000000
+2015-01-29 20:41:10 - Finished Stage 1, Pattern=00000000
+2015-01-29 20:41:10 - Starting Stage 0, Pattern=FFFFFFFF
+2015-01-29 20:41:14 - Finished Stage 0, Pattern=FFFFFFFF
+2015-01-29 20:46:14 - Starting Stage 1, Pattern=FFFFFFFF
+2015-01-29 20:46:18 - Finished Stage 1, Pattern=FFFFFFFF
+2015-01-29 20:46:20 - Running test #13 (Test 13 [Hammer test])
+2015-01-29 20:46:23 - Starting Stage 0, Pattern=00000000
+2015-01-29 20:46:26 - Finished Stage 0, Pattern=00000000
+2015-01-29 20:46:26 - Starting Stage 1, Pattern=00000000
+2015-01-29 20:58:45 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 20:58:45 - Transaction error type: Memory scrubbing error
+2015-01-29 20:58:45 - Model specific error: Corrected patrol scrub error
+2015-01-29 20:58:45 - MC10_ADDR=0000000216015DC0
+2015-01-29 20:58:45 - MC10_MISC=090010001000048C
+2015-01-29 20:59:36 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 20:59:36 - Transaction error type: Memory scrubbing error
+2015-01-29 20:59:36 - Model specific error: Corrected patrol scrub error
+2015-01-29 20:59:36 - MC10_ADDR=000000022A805800
+2015-01-29 20:59:36 - MC10_MISC=0900008000800E8C
+2015-01-29 20:59:42 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 20:59:42 - Transaction error type: Memory scrubbing error
+2015-01-29 20:59:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 20:59:42 - MC10_ADDR=000000022C8155C0
+2015-01-29 20:59:42 - MC10_MISC=090020002000208C
+2015-01-29 20:59:46 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 20:59:47 - Transaction error type: Memory scrubbing error
+2015-01-29 20:59:47 - Model specific error: Corrected patrol scrub error
+2015-01-29 20:59:47 - MC10_ADDR=000000022E815100
+2015-01-29 20:59:47 - MC10_MISC=0900000400040E8C
+2015-01-29 21:00:13 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:00:13 - Transaction error type: Memory scrubbing error
+2015-01-29 21:00:13 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:00:13 - MC10_ADDR=00000000090054C0
+2015-01-29 21:00:13 - MC10_MISC=090008000800148C
+2015-01-29 21:00:28 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:00:28 - Transaction error type: Memory scrubbing error
+2015-01-29 21:00:28 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:00:28 - MC10_ADDR=000000000F0683C0
+2015-01-29 21:00:28 - MC10_MISC=090000020002128C
+2015-01-29 21:01:47 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:01:47 - Transaction error type: Memory scrubbing error
+2015-01-29 21:01:47 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:01:47 - MC10_ADDR=000000002E8685C0
+2015-01-29 21:01:47 - MC10_MISC=0900100010000A8C
+2015-01-29 21:03:40 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:03:40 - Transaction error type: Memory scrubbing error
+2015-01-29 21:03:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:03:40 - MC10_ADDR=000000005B078C80
+2015-01-29 21:03:40 - MC10_MISC=090000004000528C
+2015-01-29 21:03:53 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:03:53 - Transaction error type: Memory scrubbing error
+2015-01-29 21:03:53 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:03:53 - MC10_ADDR=0000000060168280
+2015-01-29 21:03:53 - MC10_MISC=0900000200021A8C
+2015-01-29 21:03:56 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:03:57 - Transaction error type: Memory scrubbing error
+2015-01-29 21:03:57 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:03:57 - MC10_ADDR=0000000061968300
+2015-01-29 21:03:57 - MC10_MISC=0900020002001A8C
+2015-01-29 21:04:19 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:04:19 - Transaction error type: Memory scrubbing error
+2015-01-29 21:04:19 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:04:19 - MC10_ADDR=000000006A878280
+2015-01-29 21:04:19 - MC10_MISC=090000400040168C
+2015-01-29 21:04:26 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:04:26 - Transaction error type: Memory scrubbing error
+2015-01-29 21:04:26 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:04:26 - MC10_ADDR=000000006D878DC0
+2015-01-29 21:04:26 - MC10_MISC=0900000100010C8C
+2015-01-29 21:04:31 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:04:31 - Transaction error type: Memory scrubbing error
+2015-01-29 21:04:31 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:04:31 - MC10_ADDR=000000006F878F00
+2015-01-29 21:04:31 - MC10_MISC=090000004000468C
+2015-01-29 21:04:37 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:04:37 - Transaction error type: Memory scrubbing error
+2015-01-29 21:04:37 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:04:37 - MC10_ADDR=0000000072068E40
+2015-01-29 21:04:37 - MC10_MISC=0900080008000C8C
+2015-01-29 21:04:47 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:04:47 - Transaction error type: Memory scrubbing error
+2015-01-29 21:04:47 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:04:47 - MC10_ADDR=0000000075878E00
+2015-01-29 21:04:47 - MC10_MISC=0900000040004C8C
+2015-01-29 21:05:49 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:05:49 - Transaction error type: Memory scrubbing error
+2015-01-29 21:05:49 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:05:49 - MC10_ADDR=000000008E8692C0
+2015-01-29 21:05:49 - MC10_MISC=090010001000168C
+2015-01-29 21:06:03 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:06:03 - Transaction error type: Memory scrubbing error
+2015-01-29 21:06:03 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:06:03 - MC10_ADDR=0000000094468780
+2015-01-29 21:06:03 - MC10_MISC=090008000800168C
+2015-01-29 21:06:22 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:06:22 - Transaction error type: Memory scrubbing error
+2015-01-29 21:06:22 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:06:22 - MC10_ADDR=000000009B878480
+2015-01-29 21:06:22 - MC10_MISC=0900080008001A8C
+2015-01-29 21:07:22 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:07:22 - Transaction error type: Memory scrubbing error
+2015-01-29 21:07:22 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:07:22 - MC10_ADDR=00000000B38692C0
+2015-01-29 21:07:22 - MC10_MISC=090000004000468C
+2015-01-29 21:07:35 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:07:35 - Transaction error type: Memory scrubbing error
+2015-01-29 21:07:35 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:07:35 - MC10_ADDR=00000000B8869340
+2015-01-29 21:07:35 - MC10_MISC=090020002000048C
+2015-01-29 21:07:36 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:07:38 - Transaction error type: Memory scrubbing error
+2015-01-29 21:07:38 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:07:38 - MC10_ADDR=00000000B9878780
+2015-01-29 21:07:39 - MC10_MISC=0900000040041E8C
+2015-01-29 21:08:07 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:08:07 - Transaction error type: Memory scrubbing error
+2015-01-29 21:08:07 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:08:07 - MC10_ADDR=00000000C5014500
+2015-01-29 21:08:07 - MC10_MISC=090000800080008C
+2015-01-29 21:08:34 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:08:34 - Transaction error type: Memory scrubbing error
+2015-01-29 21:08:34 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:08:34 - MC10_ADDR=0000000100005540
+2015-01-29 21:08:34 - MC10_MISC=090000010001148C
+2015-01-29 21:09:16 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:09:17 - Transaction error type: Memory scrubbing error
+2015-01-29 21:09:17 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:09:17 - MC10_ADDR=0000000111005E80
+2015-01-29 21:09:17 - MC10_MISC=090000020002208C
+2015-01-29 21:09:51 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:09:51 - Transaction error type: Memory scrubbing error
+2015-01-29 21:09:51 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:09:51 - MC10_ADDR=000000011E815040
+2015-01-29 21:09:51 - MC10_MISC=090020002000148C
+2015-01-29 21:10:26 - Finished Stage 1, Pattern=00000000
+2015-01-29 21:10:26 - Starting Stage 2, Pattern=00000000
+2015-01-29 21:10:30 - Finished Stage 2, Pattern=00000000
+2015-01-29 21:10:30 - Starting Stage 0, Pattern=FFFFFFFF
+2015-01-29 21:10:30 - MC10_STATUS=C800079000800092 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=30, Error code=0092)
+2015-01-29 21:10:30 - Transaction error type: Memory read error
+2015-01-29 21:10:30 - Model specific error: Reserved
+2015-01-29 21:10:30 - MC10_ADDR=0000000000000000
+2015-01-29 21:10:30 - MC10_MISC=C90000040000408C
+2015-01-29 21:10:33 - Finished Stage 0, Pattern=FFFFFFFF
+2015-01-29 21:10:34 - Starting Stage 1, Pattern=FFFFFFFF
+2015-01-29 21:21:21 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:21:21 - Transaction error type: Memory scrubbing error
+2015-01-29 21:21:21 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:21:21 - MC10_ADDR=00000000008E10C0
+2015-01-29 21:21:21 - MC10_MISC=090000004000568C
+2015-01-29 21:21:37 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:21:37 - Transaction error type: Memory scrubbing error
+2015-01-29 21:21:38 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:21:38 - MC10_ADDR=0000000007014FC0
+2015-01-29 21:21:38 - MC10_MISC=090000800080008C
+2015-01-29 21:21:40 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:21:40 - Transaction error type: Memory scrubbing error
+2015-01-29 21:21:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:21:40 - MC10_ADDR=0000000008879C40
+2015-01-29 21:21:40 - MC10_MISC=0900000040004A8C
+2015-01-29 21:21:45 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:21:46 - Transaction error type: Memory scrubbing error
+2015-01-29 21:21:46 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:21:46 - MC10_ADDR=000000000A814C80
+2015-01-29 21:21:46 - MC10_MISC=0900200020000E8C
+2015-01-29 21:22:01 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:22:01 - Transaction error type: Memory scrubbing error
+2015-01-29 21:22:01 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:22:01 - MC10_ADDR=0000000010868A00
+2015-01-29 21:22:01 - MC10_MISC=0900002000200A8C
+2015-01-29 21:22:26 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:22:26 - Transaction error type: Memory scrubbing error
+2015-01-29 21:22:26 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:22:26 - MC10_ADDR=000000001A879780
+2015-01-29 21:22:26 - MC10_MISC=090000004000528C
+2015-01-29 21:22:45 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:22:45 - Transaction error type: Memory scrubbing error
+2015-01-29 21:22:45 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:22:45 - MC10_ADDR=0000000022079180
+2015-01-29 21:22:45 - MC10_MISC=0900004000400A8C
+2015-01-29 21:22:46 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:22:47 - Transaction error type: Memory scrubbing error
+2015-01-29 21:22:47 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:22:47 - MC10_ADDR=0000000022869E00
+2015-01-29 21:22:47 - MC10_MISC=090000008000928C
+2015-01-29 21:23:05 - MC10_STATUS=CC00008A000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-29 21:23:05 - Transaction error type: Memory scrubbing error
+2015-01-29 21:23:05 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:23:05 - MC10_ADDR=000000002A169400
+2015-01-29 21:23:05 - MC10_MISC=090010000800128C
+2015-01-29 21:23:10 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:23:11 - Transaction error type: Memory scrubbing error
+2015-01-29 21:23:11 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:23:11 - MC10_ADDR=000000002C405780
+2015-01-29 21:23:11 - MC10_MISC=090000010001208C
+2015-01-29 21:23:15 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:23:15 - Transaction error type: Memory scrubbing error
+2015-01-29 21:23:15 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:23:15 - MC10_ADDR=000000002E4052C0
+2015-01-29 21:23:15 - MC10_MISC=090000040004148C
+2015-01-29 21:23:26 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:23:26 - Transaction error type: Memory scrubbing error
+2015-01-29 21:23:26 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:23:26 - MC10_ADDR=0000000032469000
+2015-01-29 21:23:26 - MC10_MISC=0900000400040A8C
+2015-01-29 21:23:35 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:23:35 - Transaction error type: Memory scrubbing error
+2015-01-29 21:23:35 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:23:35 - MC10_ADDR=0000000036068C00
+2015-01-29 21:23:35 - MC10_MISC=0900080008000A8C
+2015-01-29 21:23:59 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:23:59 - Transaction error type: Memory scrubbing error
+2015-01-29 21:24:00 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:24:00 - MC10_ADDR=000000003F871D00
+2015-01-29 21:24:00 - MC10_MISC=0900002000200A8C
+2015-01-29 21:24:16 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:24:17 - Transaction error type: Memory scrubbing error
+2015-01-29 21:24:17 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:24:17 - MC10_ADDR=0000000046878B00
+2015-01-29 21:24:17 - MC10_MISC=090000100010008C
+2015-01-29 21:24:29 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:24:30 - Transaction error type: Memory scrubbing error
+2015-01-29 21:24:30 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:24:30 - MC10_ADDR=000000004BC68A00
+2015-01-29 21:24:30 - MC10_MISC=0900200020001A8C
+2015-01-29 21:25:22 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:25:22 - Transaction error type: Memory scrubbing error
+2015-01-29 21:25:22 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:25:22 - MC10_ADDR=0000000060879500
+2015-01-29 21:25:22 - MC10_MISC=0900100010000C8C
+2015-01-29 21:25:52 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:25:54 - Transaction error type: Memory scrubbing error
+2015-01-29 21:25:54 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:25:54 - MC10_ADDR=000000006CC69FC0
+2015-01-29 21:25:54 - MC10_MISC=0900002000200A8C
+2015-01-29 21:25:55 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:25:56 - Transaction error type: Memory scrubbing error
+2015-01-29 21:25:56 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:25:56 - MC10_ADDR=000000006E0796C0
+2015-01-29 21:25:56 - MC10_MISC=0900100010001E8C
+2015-01-29 21:26:26 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:26:26 - Transaction error type: Memory scrubbing error
+2015-01-29 21:26:26 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:26:26 - MC10_ADDR=000000007A069240
+2015-01-29 21:26:26 - MC10_MISC=090000080008168C
+2015-01-29 21:26:37 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:26:37 - Transaction error type: Memory scrubbing error
+2015-01-29 21:26:37 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:26:37 - MC10_ADDR=000000007E869600
+2015-01-29 21:26:37 - MC10_MISC=090000010040228C
+2015-01-29 21:26:39 - MC10_STATUS=CC000085000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-29 21:26:40 - Transaction error type: Memory scrubbing error
+2015-01-29 21:26:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:26:40 - MC10_ADDR=000000007F8698C0
+2015-01-29 21:26:40 - MC10_MISC=0900100000400C8C
+2015-01-29 21:26:43 - MC10_STATUS=8C000048000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:26:44 - Transaction error type: Memory scrubbing error
+2015-01-29 21:26:44 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:26:44 - MC10_ADDR=0000000081078440
+2015-01-29 21:26:44 - MC10_MISC=090000010001108C
+2015-01-29 21:27:07 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:27:07 - Transaction error type: Memory scrubbing error
+2015-01-29 21:27:07 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:27:07 - MC10_ADDR=000000008A0793C0
+2015-01-29 21:27:07 - MC10_MISC=090000040004028C
+2015-01-29 21:27:14 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:27:14 - Transaction error type: Memory scrubbing error
+2015-01-29 21:27:14 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:27:14 - MC10_ADDR=000000008D069740
+2015-01-29 21:27:14 - MC10_MISC=0900004000400A8C
+2015-01-29 21:27:41 - MC10_STATUS=CC00008D000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-29 21:27:41 - Transaction error type: Memory scrubbing error
+2015-01-29 21:27:41 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:27:41 - MC10_ADDR=0000000097869A40
+2015-01-29 21:27:41 - MC10_MISC=0900080008000A8C
+2015-01-29 21:28:51 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:28:51 - Transaction error type: Memory scrubbing error
+2015-01-29 21:28:51 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:28:51 - MC10_ADDR=00000000B3878040
+2015-01-29 21:28:51 - MC10_MISC=090020002000208C
+2015-01-29 21:29:30 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:29:30 - Transaction error type: Memory scrubbing error
+2015-01-29 21:29:30 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:29:30 - MC10_ADDR=00000000C3005A40
+2015-01-29 21:29:31 - MC10_MISC=090000010001008C
+2015-01-29 21:29:35 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:29:35 - Transaction error type: Memory scrubbing error
+2015-01-29 21:29:35 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:29:35 - MC10_ADDR=00000000C5014500
+2015-01-29 21:29:36 - MC10_MISC=090000800080008C
+2015-01-29 21:29:42 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:29:43 - Transaction error type: Memory scrubbing error
+2015-01-29 21:29:43 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:29:43 - MC10_ADDR=00000000C80C4100
+2015-01-29 21:29:43 - MC10_MISC=090010001000208C
+2015-01-29 21:30:10 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:30:11 - Transaction error type: Memory scrubbing error
+2015-01-29 21:30:11 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:30:11 - MC10_ADDR=0000000103014600
+2015-01-29 21:30:11 - MC10_MISC=090002000200148C
+2015-01-29 21:30:19 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:30:19 - Transaction error type: Memory scrubbing error
+2015-01-29 21:30:19 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:30:19 - MC10_ADDR=0000000106805EC0
+2015-01-29 21:30:19 - MC10_MISC=0900040004000E8C
+2015-01-29 21:30:42 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:30:42 - Transaction error type: Memory scrubbing error
+2015-01-29 21:30:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:30:42 - MC10_ADDR=000000010F814600
+2015-01-29 21:30:42 - MC10_MISC=0900080008000E8C
+2015-01-29 21:30:45 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:30:45 - Transaction error type: Memory scrubbing error
+2015-01-29 21:30:45 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:30:45 - MC10_ADDR=0000000111005E80
+2015-01-29 21:30:45 - MC10_MISC=090000020002208C
+2015-01-29 21:30:52 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:30:52 - Transaction error type: Memory scrubbing error
+2015-01-29 21:30:52 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:30:52 - MC10_ADDR=0000000113814C40
+2015-01-29 21:30:52 - MC10_MISC=0900010001000E8C
+2015-01-29 21:31:04 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:31:04 - Transaction error type: Memory scrubbing error
+2015-01-29 21:31:04 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:31:04 - MC10_ADDR=0000000118804AC0
+2015-01-29 21:31:04 - MC10_MISC=090000100010048C
+2015-01-29 21:31:40 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:31:40 - Transaction error type: Memory scrubbing error
+2015-01-29 21:31:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:31:40 - MC10_ADDR=000000012689DF40
+2015-01-29 21:31:40 - MC10_MISC=0900002000201E8C
+2015-01-29 21:32:53 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 21:32:53 - Transaction error type: Memory scrubbing error
+2015-01-29 21:32:53 - Model specific error: Corrected patrol scrub error
+2015-01-29 21:32:53 - MC10_ADDR=0000000143C05400
+2015-01-29 21:32:53 - MC10_MISC=090000080008148C
+2015-01-29 21:34:39 - Finished Stage 1, Pattern=FFFFFFFF
+2015-01-29 21:34:39 - Starting Stage 2, Pattern=FFFFFFFF
+2015-01-29 21:34:40 - MC10_STATUS=8800004000800092 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=0092)
+2015-01-29 21:34:41 - Transaction error type: Memory read error
+2015-01-29 21:34:41 - Model specific error: Reserved
+2015-01-29 21:34:41 - MC10_ADDR=0000000000000000
+2015-01-29 21:34:41 - MC10_MISC=490000010001008C
+2015-01-29 21:34:43 - Finished Stage 2, Pattern=FFFFFFFF
+2015-01-29 21:34:45 - Starting pass #2
+2015-01-29 21:34:45 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2015-01-29 21:34:45 - MC10_STATUS=C800064700800092 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=25, Error code=0092)
+2015-01-29 21:34:45 - Transaction error type: Memory read error
+2015-01-29 21:34:45 - Model specific error: Reserved
+2015-01-29 21:34:46 - MC10_ADDR=0000000000000000
+2015-01-29 21:34:46 - MC10_MISC=C900002004000E8C
+2015-01-29 21:34:48 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2015-01-29 21:34:54 - Running test #2 (Test 2 [Address test, own address])
+2015-01-29 21:35:01 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2015-01-29 21:36:11 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2015-01-29 21:41:02 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2015-01-29 21:47:27 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2015-01-29 21:51:55 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2015-01-29 22:18:11 - Running test #8 (Test 8 [Random number sequence])
+2015-01-29 22:31:10 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2015-01-29 23:21:06 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2015-01-29 23:21:10 - Starting Stage 0, Pattern=00000000
+2015-01-29 23:21:12 - Finished Stage 0, Pattern=00000000
+2015-01-29 23:26:13 - Starting Stage 1, Pattern=00000000
+2015-01-29 23:26:17 - Finished Stage 1, Pattern=00000000
+2015-01-29 23:26:17 - Starting Stage 0, Pattern=FFFFFFFF
+2015-01-29 23:26:20 - Finished Stage 0, Pattern=FFFFFFFF
+2015-01-29 23:31:21 - Starting Stage 1, Pattern=FFFFFFFF
+2015-01-29 23:31:25 - Finished Stage 1, Pattern=FFFFFFFF
+2015-01-29 23:31:27 - Running test #13 (Test 13 [Hammer test])
+2015-01-29 23:31:30 - Starting Stage 0, Pattern=00000000
+2015-01-29 23:31:33 - Finished Stage 0, Pattern=00000000
+2015-01-29 23:31:33 - Starting Stage 1, Pattern=00000000
+2015-01-29 23:32:03 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:32:04 - Transaction error type: Memory scrubbing error
+2015-01-29 23:32:04 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:32:04 - MC10_ADDR=000000002C405780
+2015-01-29 23:32:04 - MC10_MISC=090000010001208C
+2015-01-29 23:32:06 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:32:06 - Transaction error type: Memory scrubbing error
+2015-01-29 23:32:06 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:32:06 - MC10_ADDR=000000002D405240
+2015-01-29 23:32:06 - MC10_MISC=0900000040005A8C
+2015-01-29 23:34:40 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:34:40 - Transaction error type: Memory scrubbing error
+2015-01-29 23:34:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:34:40 - MC10_ADDR=000000006A878280
+2015-01-29 23:34:40 - MC10_MISC=090000400040168C
+2015-01-29 23:34:48 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:34:48 - Transaction error type: Memory scrubbing error
+2015-01-29 23:34:48 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:34:48 - MC10_ADDR=000000006D878DC0
+2015-01-29 23:34:48 - MC10_MISC=0900000100010C8C
+2015-01-29 23:34:52 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:34:52 - Transaction error type: Memory scrubbing error
+2015-01-29 23:34:52 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:34:52 - MC10_ADDR=000000006F878F00
+2015-01-29 23:34:52 - MC10_MISC=090000004000468C
+2015-01-29 23:34:58 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:34:59 - Transaction error type: Memory scrubbing error
+2015-01-29 23:34:59 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:34:59 - MC10_ADDR=0000000072068E40
+2015-01-29 23:34:59 - MC10_MISC=0900080008000C8C
+2015-01-29 23:35:07 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:35:08 - Transaction error type: Memory scrubbing error
+2015-01-29 23:35:08 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:35:08 - MC10_ADDR=0000000075878E00
+2015-01-29 23:35:08 - MC10_MISC=0900000040004C8C
+2015-01-29 23:35:13 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:35:13 - Transaction error type: Memory scrubbing error
+2015-01-29 23:35:13 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:35:13 - MC10_ADDR=0000000077C68C00
+2015-01-29 23:35:13 - MC10_MISC=0900008000801A8C
+2015-01-29 23:35:22 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:35:22 - Transaction error type: Memory scrubbing error
+2015-01-29 23:35:22 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:35:22 - MC10_ADDR=000000007B468A80
+2015-01-29 23:35:22 - MC10_MISC=090020002000208C
+2015-01-29 23:36:10 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:36:11 - Transaction error type: Memory scrubbing error
+2015-01-29 23:36:11 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:36:11 - MC10_ADDR=000000008E8692C0
+2015-01-29 23:36:11 - MC10_MISC=090010001000168C
+2015-01-29 23:36:24 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:36:25 - Transaction error type: Memory scrubbing error
+2015-01-29 23:36:25 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:36:25 - MC10_ADDR=0000000094468780
+2015-01-29 23:36:25 - MC10_MISC=090008000800168C
+2015-01-29 23:36:39 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:36:40 - Transaction error type: Memory scrubbing error
+2015-01-29 23:36:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:36:40 - MC10_ADDR=000000009A469EC0
+2015-01-29 23:36:40 - MC10_MISC=0900100010000A8C
+2015-01-29 23:36:43 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:36:43 - Transaction error type: Memory scrubbing error
+2015-01-29 23:36:44 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:36:44 - MC10_ADDR=000000009B878480
+2015-01-29 23:36:44 - MC10_MISC=0900080008001A8C
+2015-01-29 23:36:46 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:36:46 - Transaction error type: Memory scrubbing error
+2015-01-29 23:36:46 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:36:46 - MC10_ADDR=000000009CC783C0
+2015-01-29 23:36:46 - MC10_MISC=0900000100010A8C
+2015-01-29 23:37:05 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:05 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:05 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:05 - MC10_ADDR=00000000A4478E80
+2015-01-29 23:37:05 - MC10_MISC=090002000200168C
+2015-01-29 23:37:34 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:34 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:34 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:34 - MC10_ADDR=00000000AFC79300
+2015-01-29 23:37:34 - MC10_MISC=090000200020128C
+2015-01-29 23:37:40 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:40 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:40 - MC10_ADDR=00000000B2469480
+2015-01-29 23:37:40 - MC10_MISC=090000010001028C
+2015-01-29 23:37:43 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:44 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:44 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:44 - MC10_ADDR=00000000B38692C0
+2015-01-29 23:37:44 - MC10_MISC=090000004000468C
+2015-01-29 23:37:56 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:56 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:56 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:56 - MC10_ADDR=00000000B8869340
+2015-01-29 23:37:56 - MC10_MISC=090020002000048C
+2015-01-29 23:37:57 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:37:58 - Transaction error type: Memory scrubbing error
+2015-01-29 23:37:58 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:37:58 - MC10_ADDR=00000000B9878780
+2015-01-29 23:37:58 - MC10_MISC=0900000040041E8C
+2015-01-29 23:39:41 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:39:41 - Transaction error type: Memory scrubbing error
+2015-01-29 23:39:41 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:39:41 - MC10_ADDR=0000000112468600
+2015-01-29 23:39:41 - MC10_MISC=0900000100010A8C
+2015-01-29 23:51:55 - MC10_STATUS=CC000083000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-29 23:51:55 - Transaction error type: Memory scrubbing error
+2015-01-29 23:51:55 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:51:55 - MC10_ADDR=0000000006469140
+2015-01-29 23:51:55 - MC10_MISC=090008000004008C
+2015-01-29 23:52:03 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:52:03 - Transaction error type: Memory scrubbing error
+2015-01-29 23:52:03 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:52:03 - MC10_ADDR=00000000090054C0
+2015-01-29 23:52:03 - MC10_MISC=090008000800148C
+2015-01-29 23:52:18 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:52:18 - Transaction error type: Memory scrubbing error
+2015-01-29 23:52:18 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:52:18 - MC10_ADDR=000000000F0683C0
+2015-01-29 23:52:18 - MC10_MISC=090000020002128C
+2015-01-29 23:52:48 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:52:48 - Transaction error type: Memory scrubbing error
+2015-01-29 23:52:48 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:52:48 - MC10_ADDR=000000001AC79F80
+2015-01-29 23:52:49 - MC10_MISC=090000040004048C
+2015-01-29 23:52:51 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:52:51 - Transaction error type: Memory scrubbing error
+2015-01-29 23:52:51 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:52:51 - MC10_ADDR=000000001C469940
+2015-01-29 23:52:51 - MC10_MISC=0900002000200A8C
+2015-01-29 23:53:16 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:18 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:18 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:18 - MC10_ADDR=0000000026D05980
+2015-01-29 23:53:18 - MC10_MISC=090000004020008C
+2015-01-29 23:53:24 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:24 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:24 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:24 - MC10_ADDR=00000000294785C0
+2015-01-29 23:53:24 - MC10_MISC=0900001000101E8C
+2015-01-29 23:53:32 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:32 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:32 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:32 - MC10_ADDR=000000002C405780
+2015-01-29 23:53:32 - MC10_MISC=090000010001208C
+2015-01-29 23:53:34 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:34 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:34 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:34 - MC10_ADDR=000000002D405240
+2015-01-29 23:53:34 - MC10_MISC=0900000040005A8C
+2015-01-29 23:53:37 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:37 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:37 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:37 - MC10_ADDR=000000002E8685C0
+2015-01-29 23:53:37 - MC10_MISC=0900100010000A8C
+2015-01-29 23:53:53 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:53:53 - Transaction error type: Memory scrubbing error
+2015-01-29 23:53:53 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:53:53 - MC10_ADDR=0000000034C79900
+2015-01-29 23:53:53 - MC10_MISC=0900040004000A8C
+2015-01-29 23:54:38 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:54:38 - Transaction error type: Memory scrubbing error
+2015-01-29 23:54:38 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:54:38 - MC10_ADDR=0000000046C68D00
+2015-01-29 23:54:38 - MC10_MISC=0900004000401A8C
+2015-01-29 23:54:42 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:54:42 - Transaction error type: Memory scrubbing error
+2015-01-29 23:54:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:54:42 - MC10_ADDR=0000000048468700
+2015-01-29 23:54:42 - MC10_MISC=0900000800080C8C
+2015-01-29 23:54:59 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:54:59 - Transaction error type: Memory scrubbing error
+2015-01-29 23:54:59 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:54:59 - MC10_ADDR=000000004EC68D40
+2015-01-29 23:54:59 - MC10_MISC=0900002000201A8C
+2015-01-29 23:55:16 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:55:17 - Transaction error type: Memory scrubbing error
+2015-01-29 23:55:17 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:55:17 - MC10_ADDR=0000000055C68FC0
+2015-01-29 23:55:17 - MC10_MISC=0900008000800A8C
+2015-01-29 23:55:40 - MC10_STATUS=CC000086000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-29 23:55:40 - Transaction error type: Memory scrubbing error
+2015-01-29 23:55:40 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:55:40 - MC10_ADDR=000000005F478E80
+2015-01-29 23:55:40 - MC10_MISC=0900040000009C8C
+2015-01-29 23:55:42 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:55:42 - Transaction error type: Memory scrubbing error
+2015-01-29 23:55:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:55:42 - MC10_ADDR=0000000060168280
+2015-01-29 23:55:42 - MC10_MISC=0900000200021A8C
+2015-01-29 23:55:46 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:55:47 - Transaction error type: Memory scrubbing error
+2015-01-29 23:55:47 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:55:47 - MC10_ADDR=0000000061968300
+2015-01-29 23:55:47 - MC10_MISC=0900020002001A8C
+2015-01-29 23:55:52 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:55:52 - Transaction error type: Memory scrubbing error
+2015-01-29 23:55:52 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:55:52 - MC10_ADDR=0000000063C68280
+2015-01-29 23:55:52 - MC10_MISC=0900100010000C8C
+2015-01-29 23:56:27 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:56:27 - Transaction error type: Memory scrubbing error
+2015-01-29 23:56:27 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:56:27 - MC10_ADDR=0000000072068E40
+2015-01-29 23:56:27 - MC10_MISC=0900080008000C8C
+2015-01-29 23:56:42 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:56:42 - Transaction error type: Memory scrubbing error
+2015-01-29 23:56:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:56:42 - MC10_ADDR=0000000077C68C00
+2015-01-29 23:56:42 - MC10_MISC=0900008000801A8C
+2015-01-29 23:56:51 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:56:51 - Transaction error type: Memory scrubbing error
+2015-01-29 23:56:51 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:56:51 - MC10_ADDR=000000007B468A80
+2015-01-29 23:56:51 - MC10_MISC=090020002000208C
+2015-01-29 23:57:41 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:57:42 - Transaction error type: Memory scrubbing error
+2015-01-29 23:57:42 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:57:42 - MC10_ADDR=000000008F8688C0
+2015-01-29 23:57:42 - MC10_MISC=090000020002008C
+2015-01-29 23:57:53 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:57:54 - Transaction error type: Memory scrubbing error
+2015-01-29 23:57:54 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:57:54 - MC10_ADDR=0000000094468780
+2015-01-29 23:57:54 - MC10_MISC=090008000800168C
+2015-01-29 23:58:08 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:58:09 - Transaction error type: Memory scrubbing error
+2015-01-29 23:58:09 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:58:09 - MC10_ADDR=000000009A469EC0
+2015-01-29 23:58:09 - MC10_MISC=0900100010000A8C
+2015-01-29 23:59:08 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:59:09 - Transaction error type: Memory scrubbing error
+2015-01-29 23:59:09 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:59:09 - MC10_ADDR=00000000B2469480
+2015-01-29 23:59:09 - MC10_MISC=090000010001028C
+2015-01-29 23:59:12 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:59:13 - Transaction error type: Memory scrubbing error
+2015-01-29 23:59:13 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:59:13 - MC10_ADDR=00000000B38692C0
+2015-01-29 23:59:13 - MC10_MISC=090000004000468C
+2015-01-29 23:59:24 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:59:24 - Transaction error type: Memory scrubbing error
+2015-01-29 23:59:25 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:59:25 - MC10_ADDR=00000000B8869340
+2015-01-29 23:59:25 - MC10_MISC=090020002000048C
+2015-01-29 23:59:56 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-29 23:59:56 - Transaction error type: Memory scrubbing error
+2015-01-29 23:59:56 - Model specific error: Corrected patrol scrub error
+2015-01-29 23:59:56 - MC10_ADDR=00000000C5014500
+2015-01-29 23:59:56 - MC10_MISC=090000800080008C
+2015-01-30 00:00:07 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:00:07 - Transaction error type: Memory scrubbing error
+2015-01-30 00:00:07 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:00:07 - MC10_ADDR=00000000C94052C0
+2015-01-30 00:00:07 - MC10_MISC=0900001000100E8C
+2015-01-30 00:00:24 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:00:24 - Transaction error type: Memory scrubbing error
+2015-01-30 00:00:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:00:24 - MC10_ADDR=0000000100005540
+2015-01-30 00:00:24 - MC10_MISC=090000010001148C
+2015-01-30 00:01:06 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:01:08 - Transaction error type: Memory scrubbing error
+2015-01-30 00:01:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:01:08 - MC10_ADDR=0000000111005E80
+2015-01-30 00:01:08 - MC10_MISC=090000020002208C
+2015-01-30 00:01:09 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:01:10 - Transaction error type: Memory scrubbing error
+2015-01-30 00:01:10 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:01:10 - MC10_ADDR=0000000112468600
+2015-01-30 00:01:10 - MC10_MISC=0900000100010A8C
+2015-01-30 00:01:40 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:01:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:01:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:01:41 - MC10_ADDR=000000011E815040
+2015-01-30 00:01:41 - MC10_MISC=090020002000148C
+2015-01-30 00:02:42 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:02:43 - Transaction error type: Memory scrubbing error
+2015-01-30 00:02:43 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:02:43 - MC10_ADDR=00000001374058C0
+2015-01-30 00:02:43 - MC10_MISC=090000004000608C
+2015-01-30 00:02:56 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:02:57 - Transaction error type: Memory scrubbing error
+2015-01-30 00:02:57 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:02:57 - MC10_ADDR=000000013C814C00
+2015-01-30 00:02:57 - MC10_MISC=090000080008148C
+2015-01-30 00:03:30 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:03:30 - Transaction error type: Memory scrubbing error
+2015-01-30 00:03:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:03:30 - MC10_ADDR=000000014A005500
+2015-01-30 00:03:30 - MC10_MISC=090000800080088C
+2015-01-30 00:03:50 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:03:50 - Transaction error type: Memory scrubbing error
+2015-01-30 00:03:50 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:03:50 - MC10_ADDR=0000000152004CC0
+2015-01-30 00:03:50 - MC10_MISC=0900004000400E8C
+2015-01-30 00:03:59 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:04:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:04:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:04:00 - MC10_ADDR=0000000155D05380
+2015-01-30 00:04:00 - MC10_MISC=090000400040208C
+2015-01-30 00:04:25 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:04:25 - Transaction error type: Memory scrubbing error
+2015-01-30 00:04:25 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:04:25 - MC10_ADDR=000000015FC14800
+2015-01-30 00:04:25 - MC10_MISC=090002000200188C
+2015-01-30 00:04:31 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:04:32 - Transaction error type: Memory scrubbing error
+2015-01-30 00:04:32 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:04:32 - MC10_ADDR=0000000162405380
+2015-01-30 00:04:32 - MC10_MISC=0900010001001C8C
+2015-01-30 00:05:04 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:04 - MC10_ADDR=000000016F804280
+2015-01-30 00:05:04 - MC10_MISC=0900000200021C8C
+2015-01-30 00:05:08 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:08 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:08 - MC10_ADDR=0000000170C15740
+2015-01-30 00:05:08 - MC10_MISC=090000800080208C
+2015-01-30 00:05:15 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:15 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:15 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:15 - MC10_ADDR=0000000174004440
+2015-01-30 00:05:15 - MC10_MISC=0900001010000E8C
+2015-01-30 00:05:16 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:17 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:17 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:17 - MC10_ADDR=0000000174814CC0
+2015-01-30 00:05:17 - MC10_MISC=0900000100010E8C
+2015-01-30 00:05:24 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:24 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:25 - MC10_ADDR=0000000177804540
+2015-01-30 00:05:25 - MC10_MISC=090004000400148C
+2015-01-30 00:05:34 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:34 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:34 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:34 - MC10_ADDR=000000017B404840
+2015-01-30 00:05:34 - MC10_MISC=090000400040208C
+2015-01-30 00:05:46 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:46 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:46 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:46 - MC10_ADDR=000000017FC04780
+2015-01-30 00:05:46 - MC10_MISC=0900010001000E8C
+2015-01-30 00:05:54 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:05:54 - Transaction error type: Memory scrubbing error
+2015-01-30 00:05:54 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:05:54 - MC10_ADDR=00000001838042C0
+2015-01-30 00:05:54 - MC10_MISC=090000400040148C
+2015-01-30 00:06:08 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:06:08 - Transaction error type: Memory scrubbing error
+2015-01-30 00:06:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:06:09 - MC10_ADDR=0000000188C04240
+2015-01-30 00:06:09 - MC10_MISC=090000200020208C
+2015-01-30 00:06:23 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:06:24 - Transaction error type: Memory scrubbing error
+2015-01-30 00:06:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:06:24 - MC10_ADDR=000000018EC04000
+2015-01-30 00:06:24 - MC10_MISC=0900000100010E8C
+2015-01-30 00:06:30 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:06:30 - Transaction error type: Memory scrubbing error
+2015-01-30 00:06:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:06:30 - MC10_ADDR=0000000191415900
+2015-01-30 00:06:30 - MC10_MISC=090000040004208C
+2015-01-30 00:07:13 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:07:14 - Transaction error type: Memory scrubbing error
+2015-01-30 00:07:14 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:07:14 - MC10_ADDR=00000001A3105700
+2015-01-30 00:07:14 - MC10_MISC=0900010001000E8C
+2015-01-30 00:07:22 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:07:22 - Transaction error type: Memory scrubbing error
+2015-01-30 00:07:22 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:07:22 - MC10_ADDR=00000001A6505940
+2015-01-30 00:07:22 - MC10_MISC=090000800080208C
+2015-01-30 00:07:27 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:07:27 - Transaction error type: Memory scrubbing error
+2015-01-30 00:07:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:07:27 - MC10_ADDR=00000001A84154C0
+2015-01-30 00:07:27 - MC10_MISC=090000200020088C
+2015-01-30 00:07:41 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:07:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:07:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:07:41 - MC10_ADDR=00000001AE015BC0
+2015-01-30 00:07:41 - MC10_MISC=090000010001208C
+2015-01-30 00:08:10 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:08:11 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:11 - MC10_ADDR=00000001B9505840
+2015-01-30 00:08:11 - MC10_MISC=090000100010148C
+2015-01-30 00:08:15 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:08:17 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:17 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:17 - MC10_ADDR=00000001BB904680
+2015-01-30 00:08:17 - MC10_MISC=090000040004208C
+2015-01-30 00:08:21 - MC10_STATUS=CC00008A000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:08:21 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:21 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:21 - MC10_ADDR=00000001BDC055C0
+2015-01-30 00:08:21 - MC10_MISC=0900080000801E8C
+2015-01-30 00:08:33 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:08:33 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:33 - MC10_ADDR=00000001C2815BC0
+2015-01-30 00:08:33 - MC10_MISC=090000008000948C
+2015-01-30 00:08:40 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:08:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:41 - MC10_ADDR=00000001C5815240
+2015-01-30 00:08:41 - MC10_MISC=090002000200208C
+2015-01-30 00:08:57 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:08:58 - Transaction error type: Memory scrubbing error
+2015-01-30 00:08:58 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:08:58 - MC10_ADDR=00000001CC004A40
+2015-01-30 00:08:58 - MC10_MISC=0900000040005E8C
+2015-01-30 00:09:06 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:09:06 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:06 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:06 - MC10_ADDR=00000001CF415380
+2015-01-30 00:09:06 - MC10_MISC=0900080008001C8C
+2015-01-30 00:09:13 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:09:14 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:14 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:14 - MC10_ADDR=00000001D2814F80
+2015-01-30 00:09:14 - MC10_MISC=0900080008000E8C
+2015-01-30 00:09:38 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:09:39 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:39 - MC10_ADDR=00000001DC415700
+2015-01-30 00:09:39 - MC10_MISC=090000400040208C
+2015-01-30 00:09:41 - MC10_STATUS=CC000083000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:09:42 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:42 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:42 - MC10_ADDR=00000001DD814980
+2015-01-30 00:09:42 - MC10_MISC=090000200020208C
+2015-01-30 00:09:50 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:09:50 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:50 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:50 - MC10_ADDR=00000001E1104DC0
+2015-01-30 00:09:50 - MC10_MISC=090000080008208C
+2015-01-30 00:09:51 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:09:52 - Transaction error type: Memory scrubbing error
+2015-01-30 00:09:52 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:09:52 - MC10_ADDR=00000001E20056C0
+2015-01-30 00:09:52 - MC10_MISC=090020000008088C
+2015-01-30 00:10:05 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:10:06 - Transaction error type: Memory scrubbing error
+2015-01-30 00:10:06 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:10:06 - MC10_ADDR=00000001E7004A00
+2015-01-30 00:10:06 - MC10_MISC=0900000040005C8C
+2015-01-30 00:10:08 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:10:08 - Transaction error type: Memory scrubbing error
+2015-01-30 00:10:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:10:08 - MC10_ADDR=00000001E8015D40
+2015-01-30 00:10:08 - MC10_MISC=0900004000401A8C
+2015-01-30 00:10:21 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:10:22 - Transaction error type: Memory scrubbing error
+2015-01-30 00:10:22 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:10:22 - MC10_ADDR=00000001ED814CC0
+2015-01-30 00:10:22 - MC10_MISC=0900000200020E8C
+2015-01-30 00:10:43 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:10:43 - Transaction error type: Memory scrubbing error
+2015-01-30 00:10:43 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:10:43 - MC10_ADDR=00000001F6404D00
+2015-01-30 00:10:43 - MC10_MISC=090000020002188C
+2015-01-30 00:10:52 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:10:52 - Transaction error type: Memory scrubbing error
+2015-01-30 00:10:52 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:10:52 - MC10_ADDR=00000001F949CD40
+2015-01-30 00:10:52 - MC10_MISC=0900000040005C8C
+2015-01-30 00:11:15 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:11:16 - Transaction error type: Memory scrubbing error
+2015-01-30 00:11:16 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:11:16 - MC10_ADDR=0000000202C144C0
+2015-01-30 00:11:16 - MC10_MISC=090000080008088C
+2015-01-30 00:11:17 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:11:18 - Transaction error type: Memory scrubbing error
+2015-01-30 00:11:18 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:11:18 - MC10_ADDR=0000000203815140
+2015-01-30 00:11:18 - MC10_MISC=090000040004008C
+2015-01-30 00:12:03 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:12:03 - Transaction error type: Memory scrubbing error
+2015-01-30 00:12:03 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:12:03 - MC10_ADDR=0000000215C04880
+2015-01-30 00:12:03 - MC10_MISC=090000800080148C
+2015-01-30 00:12:26 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:12:27 - Transaction error type: Memory scrubbing error
+2015-01-30 00:12:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:12:27 - MC10_ADDR=000000021F505F40
+2015-01-30 00:12:27 - MC10_MISC=0900200020000E8C
+2015-01-30 00:12:32 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:12:32 - Transaction error type: Memory scrubbing error
+2015-01-30 00:12:32 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:12:32 - MC10_ADDR=0000000221415700
+2015-01-30 00:12:32 - MC10_MISC=090002000200208C
+2015-01-30 00:12:54 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:12:55 - Transaction error type: Memory scrubbing error
+2015-01-30 00:12:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:12:55 - MC10_ADDR=000000022A805800
+2015-01-30 00:12:55 - MC10_MISC=0900008000800E8C
+2015-01-30 00:12:59 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:13:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:13:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:13:00 - MC10_ADDR=000000022C8155C0
+2015-01-30 00:13:00 - MC10_MISC=090020002000208C
+2015-01-30 00:13:05 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:13:05 - Transaction error type: Memory scrubbing error
+2015-01-30 00:13:05 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:13:05 - MC10_ADDR=000000022E815100
+2015-01-30 00:13:05 - MC10_MISC=0900000400040E8C
+2015-01-30 00:20:10 - Finished Stage 1, Pattern=00000000
+2015-01-30 00:20:11 - Starting Stage 2, Pattern=00000000
+2015-01-30 00:20:15 - Finished Stage 2, Pattern=00000000
+2015-01-30 00:20:15 - Starting Stage 0, Pattern=FFFFFFFF
+2015-01-30 00:20:15 - MC10_STATUS=C800054A00800092 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=21, Error code=0092)
+2015-01-30 00:20:15 - Transaction error type: Memory read error
+2015-01-30 00:20:15 - Model specific error: Reserved
+2015-01-30 00:20:15 - MC10_ADDR=0000000000000000
+2015-01-30 00:20:15 - MC10_MISC=C900000040011C8C
+2015-01-30 00:20:20 - Finished Stage 0, Pattern=FFFFFFFF
+2015-01-30 00:20:20 - Starting Stage 1, Pattern=FFFFFFFF
+2015-01-30 00:21:29 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:21:29 - Transaction error type: Memory scrubbing error
+2015-01-30 00:21:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:21:29 - MC10_ADDR=00000000C6C9C740
+2015-01-30 00:21:29 - MC10_MISC=090008000800088C
+2015-01-30 00:21:31 - MC10_STATUS=8C000051000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:21:32 - Transaction error type: Memory scrubbing error
+2015-01-30 00:21:32 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:21:32 - MC10_ADDR=00000000C7D9C0C0
+2015-01-30 00:21:32 - MC10_MISC=090000400040228C
+2015-01-30 00:21:36 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:21:37 - Transaction error type: Memory scrubbing error
+2015-01-30 00:21:37 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:21:37 - MC10_ADDR=00000000C94052C0
+2015-01-30 00:21:37 - MC10_MISC=0900001000100E8C
+2015-01-30 00:34:39 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:34:40 - Transaction error type: Memory scrubbing error
+2015-01-30 00:34:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:34:40 - MC10_ADDR=00000000008E10C0
+2015-01-30 00:34:40 - MC10_MISC=090000004000568C
+2015-01-30 00:34:49 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:34:50 - Transaction error type: Memory scrubbing error
+2015-01-30 00:34:50 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:34:50 - MC10_ADDR=0000000004C05A00
+2015-01-30 00:34:50 - MC10_MISC=090000010001148C
+2015-01-30 00:34:56 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:34:56 - Transaction error type: Memory scrubbing error
+2015-01-30 00:34:56 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:34:56 - MC10_ADDR=0000000007014FC0
+2015-01-30 00:34:56 - MC10_MISC=090000800080008C
+2015-01-30 00:34:59 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:35:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:35:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:35:00 - MC10_ADDR=0000000008879C40
+2015-01-30 00:35:00 - MC10_MISC=0900000040004A8C
+2015-01-30 00:35:03 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:35:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:35:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:35:04 - MC10_ADDR=000000000A814C80
+2015-01-30 00:35:04 - MC10_MISC=0900200020000E8C
+2015-01-30 00:35:19 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:35:20 - Transaction error type: Memory scrubbing error
+2015-01-30 00:35:20 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:35:20 - MC10_ADDR=0000000010868A00
+2015-01-30 00:35:20 - MC10_MISC=0900002000200A8C
+2015-01-30 00:35:23 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:35:23 - Transaction error type: Memory scrubbing error
+2015-01-30 00:35:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:35:24 - MC10_ADDR=0000000012479540
+2015-01-30 00:35:24 - MC10_MISC=090000010001168C
+2015-01-30 00:35:45 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:35:45 - Transaction error type: Memory scrubbing error
+2015-01-30 00:35:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:35:45 - MC10_ADDR=000000001A879780
+2015-01-30 00:35:45 - MC10_MISC=090000004000528C
+2015-01-30 00:36:03 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:03 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:03 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:03 - MC10_ADDR=0000000022079180
+2015-01-30 00:36:03 - MC10_MISC=0900004000400A8C
+2015-01-30 00:36:04 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:05 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:05 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:05 - MC10_ADDR=0000000022869E00
+2015-01-30 00:36:05 - MC10_MISC=090000008000928C
+2015-01-30 00:36:11 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:11 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:11 - MC10_ADDR=0000000025414340
+2015-01-30 00:36:11 - MC10_MISC=0900200020000E8C
+2015-01-30 00:36:23 - MC10_STATUS=CC0000CE000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=3, Error code=00C2)
+2015-01-30 00:36:23 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:23 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:23 - MC10_ADDR=000000002A169400
+2015-01-30 00:36:24 - MC10_MISC=090010000004128C
+2015-01-30 00:36:25 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:25 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:25 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:25 - MC10_ADDR=000000002AC15F00
+2015-01-30 00:36:26 - MC10_MISC=090000010001148C
+2015-01-30 00:36:29 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:29 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:29 - MC10_ADDR=000000002C405780
+2015-01-30 00:36:29 - MC10_MISC=090000010001208C
+2015-01-30 00:36:34 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:34 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:34 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:35 - MC10_ADDR=000000002E4052C0
+2015-01-30 00:36:35 - MC10_MISC=090000040004148C
+2015-01-30 00:36:37 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:37 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:37 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:37 - MC10_ADDR=000000002F415580
+2015-01-30 00:36:37 - MC10_MISC=0900002000201C8C
+2015-01-30 00:36:44 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:45 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:45 - MC10_ADDR=0000000032469000
+2015-01-30 00:36:45 - MC10_MISC=0900000400040A8C
+2015-01-30 00:36:54 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:36:54 - Transaction error type: Memory scrubbing error
+2015-01-30 00:36:54 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:36:54 - MC10_ADDR=0000000036068C00
+2015-01-30 00:36:54 - MC10_MISC=0900080008000A8C
+2015-01-30 00:37:06 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:37:07 - Transaction error type: Memory scrubbing error
+2015-01-30 00:37:07 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:37:07 - MC10_ADDR=000000003B479C80
+2015-01-30 00:37:07 - MC10_MISC=090002000200208C
+2015-01-30 00:37:17 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:37:17 - Transaction error type: Memory scrubbing error
+2015-01-30 00:37:17 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:37:18 - MC10_ADDR=000000003F871D00
+2015-01-30 00:37:18 - MC10_MISC=0900002000200A8C
+2015-01-30 00:37:35 - MC10_STATUS=CC000080000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:37:35 - Transaction error type: Memory scrubbing error
+2015-01-30 00:37:35 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:37:35 - MC10_ADDR=0000000046C79D80
+2015-01-30 00:37:35 - MC10_MISC=090000004010048C
+2015-01-30 00:37:48 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:37:50 - Transaction error type: Memory scrubbing error
+2015-01-30 00:37:50 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:37:50 - MC10_ADDR=000000004BC68A00
+2015-01-30 00:37:50 - MC10_MISC=0900200020001A8C
+2015-01-30 00:38:09 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:09 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:09 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:09 - MC10_ADDR=0000000053D696C0
+2015-01-30 00:38:09 - MC10_MISC=090000020002128C
+2015-01-30 00:38:28 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:28 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:28 - MC10_ADDR=000000005BC78800
+2015-01-30 00:38:28 - MC10_MISC=0900000200020A8C
+2015-01-30 00:38:39 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:39 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:39 - MC10_ADDR=000000005FC79840
+2015-01-30 00:38:39 - MC10_MISC=090010001000128C
+2015-01-30 00:38:40 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:41 - MC10_ADDR=0000000060879500
+2015-01-30 00:38:41 - MC10_MISC=0900100010000C8C
+2015-01-30 00:38:44 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:44 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:44 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:44 - MC10_ADDR=0000000061C78240
+2015-01-30 00:38:44 - MC10_MISC=0900200020001A8C
+2015-01-30 00:38:45 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:45 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:45 - MC10_ADDR=0000000062569D80
+2015-01-30 00:38:45 - MC10_MISC=090000200020168C
+2015-01-30 00:38:50 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:38:50 - Transaction error type: Memory scrubbing error
+2015-01-30 00:38:50 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:38:50 - MC10_ADDR=0000000064468A40
+2015-01-30 00:38:50 - MC10_MISC=0900000080008A8C
+2015-01-30 00:39:00 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:00 - MC10_ADDR=0000000068469200
+2015-01-30 00:39:00 - MC10_MISC=0900200020000C8C
+2015-01-30 00:39:11 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:11 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:11 - MC10_ADDR=000000006CC69FC0
+2015-01-30 00:39:11 - MC10_MISC=0900002000200A8C
+2015-01-30 00:39:15 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:15 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:15 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:15 - MC10_ADDR=000000006E0796C0
+2015-01-30 00:39:15 - MC10_MISC=0900100010001E8C
+2015-01-30 00:39:38 - MC10_STATUS=8C000048000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:39 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:39 - MC10_ADDR=0000000077C783C0
+2015-01-30 00:39:39 - MC10_MISC=090000008000908C
+2015-01-30 00:39:45 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:45 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:45 - MC10_ADDR=000000007A069240
+2015-01-30 00:39:45 - MC10_MISC=090000080008168C
+2015-01-30 00:39:54 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:54 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:55 - MC10_ADDR=000000007E068340
+2015-01-30 00:39:55 - MC10_MISC=0900004000400C8C
+2015-01-30 00:39:56 - MC10_STATUS=8C000051000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:39:57 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:57 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:57 - MC10_ADDR=000000007E869600
+2015-01-30 00:39:57 - MC10_MISC=090000010001228C
+2015-01-30 00:39:59 - MC10_STATUS=CC000085000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:39:59 - Transaction error type: Memory scrubbing error
+2015-01-30 00:39:59 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:39:59 - MC10_ADDR=000000007F8698C0
+2015-01-30 00:39:59 - MC10_MISC=0900100000400C8C
+2015-01-30 00:40:02 - MC10_STATUS=8C000048000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:40:02 - Transaction error type: Memory scrubbing error
+2015-01-30 00:40:02 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:40:03 - MC10_ADDR=0000000081078440
+2015-01-30 00:40:03 - MC10_MISC=090000010001108C
+2015-01-30 00:40:07 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:40:08 - Transaction error type: Memory scrubbing error
+2015-01-30 00:40:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:40:08 - MC10_ADDR=0000000083469E80
+2015-01-30 00:40:08 - MC10_MISC=090000800080208C
+2015-01-30 00:40:25 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:40:26 - Transaction error type: Memory scrubbing error
+2015-01-30 00:40:26 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:40:26 - MC10_ADDR=000000008A0793C0
+2015-01-30 00:40:26 - MC10_MISC=090000040004028C
+2015-01-30 00:40:33 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:40:33 - Transaction error type: Memory scrubbing error
+2015-01-30 00:40:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:40:33 - MC10_ADDR=000000008D069740
+2015-01-30 00:40:33 - MC10_MISC=0900004000400A8C
+2015-01-30 00:40:59 - MC10_STATUS=CC00008D000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:41:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:41:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:41:00 - MC10_ADDR=0000000097869A40
+2015-01-30 00:41:00 - MC10_MISC=0900080008000A8C
+2015-01-30 00:41:02 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:41:03 - Transaction error type: Memory scrubbing error
+2015-01-30 00:41:03 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:41:03 - MC10_ADDR=0000000098C78FC0
+2015-01-30 00:41:03 - MC10_MISC=090002000200168C
+2015-01-30 00:41:15 - MC10_STATUS=8C000048000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:41:15 - Transaction error type: Memory scrubbing error
+2015-01-30 00:41:15 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:41:15 - MC10_ADDR=000000009DC68340
+2015-01-30 00:41:15 - MC10_MISC=090000200020108C
+2015-01-30 00:42:10 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:42:10 - Transaction error type: Memory scrubbing error
+2015-01-30 00:42:10 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:42:10 - MC10_ADDR=00000000B3878040
+2015-01-30 00:42:10 - MC10_MISC=090020002000208C
+2015-01-30 00:42:35 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:42:35 - Transaction error type: Memory scrubbing error
+2015-01-30 00:42:35 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:42:35 - MC10_ADDR=00000000BD8681C0
+2015-01-30 00:42:35 - MC10_MISC=0900010001000A8C
+2015-01-30 00:42:49 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:42:49 - Transaction error type: Memory scrubbing error
+2015-01-30 00:42:49 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:42:49 - MC10_ADDR=00000000C3005A40
+2015-01-30 00:42:49 - MC10_MISC=090000010001008C
+2015-01-30 00:42:53 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:42:53 - Transaction error type: Memory scrubbing error
+2015-01-30 00:42:53 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:42:53 - MC10_ADDR=00000000C5014500
+2015-01-30 00:42:53 - MC10_MISC=090000800080008C
+2015-01-30 00:43:01 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:43:02 - Transaction error type: Memory scrubbing error
+2015-01-30 00:43:02 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:43:02 - MC10_ADDR=00000000C80C4100
+2015-01-30 00:43:02 - MC10_MISC=090010001000208C
+2015-01-30 00:43:04 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:43:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:43:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:43:04 - MC10_ADDR=00000000C94052C0
+2015-01-30 00:43:04 - MC10_MISC=0900001000100E8C
+2015-01-30 00:43:29 - MC10_STATUS=CC00008A000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:43:29 - Transaction error type: Memory scrubbing error
+2015-01-30 00:43:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:43:30 - MC10_ADDR=0000000103404E00
+2015-01-30 00:43:30 - MC10_MISC=0900100002000E8C
+2015-01-30 00:43:37 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:43:37 - Transaction error type: Memory scrubbing error
+2015-01-30 00:43:37 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:43:37 - MC10_ADDR=0000000106805EC0
+2015-01-30 00:43:37 - MC10_MISC=0900040004000E8C
+2015-01-30 00:44:00 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:00 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:00 - MC10_ADDR=000000010F814600
+2015-01-30 00:44:00 - MC10_MISC=0900080008000E8C
+2015-01-30 00:44:04 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:04 - MC10_ADDR=0000000111005E80
+2015-01-30 00:44:04 - MC10_MISC=090000020002208C
+2015-01-30 00:44:10 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:11 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:11 - MC10_ADDR=0000000113814C40
+2015-01-30 00:44:11 - MC10_MISC=0900010001000E8C
+2015-01-30 00:44:23 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:23 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:24 - MC10_ADDR=0000000118804AC0
+2015-01-30 00:44:24 - MC10_MISC=090000100010048C
+2015-01-30 00:44:30 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:30 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:30 - MC10_ADDR=000000011B805F80
+2015-01-30 00:44:30 - MC10_MISC=090000080008188C
+2015-01-30 00:44:59 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:44:59 - Transaction error type: Memory scrubbing error
+2015-01-30 00:44:59 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:44:59 - MC10_ADDR=000000012689DF40
+2015-01-30 00:44:59 - MC10_MISC=0900002000201E8C
+2015-01-30 00:45:40 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:45:40 - Transaction error type: Memory scrubbing error
+2015-01-30 00:45:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:45:40 - MC10_ADDR=0000000137405A80
+2015-01-30 00:45:40 - MC10_MISC=090000010001148C
+2015-01-30 00:45:51 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:45:51 - Transaction error type: Memory scrubbing error
+2015-01-30 00:45:51 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:45:51 - MC10_ADDR=000000013B405B80
+2015-01-30 00:45:51 - MC10_MISC=0900000080008E8C
+2015-01-30 00:46:12 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:46:12 - Transaction error type: Memory scrubbing error
+2015-01-30 00:46:12 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:46:12 - MC10_ADDR=0000000143C05400
+2015-01-30 00:46:12 - MC10_MISC=090000080008148C
+2015-01-30 00:46:47 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:46:47 - Transaction error type: Memory scrubbing error
+2015-01-30 00:46:47 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:46:47 - MC10_ADDR=0000000151C05680
+2015-01-30 00:46:47 - MC10_MISC=0900000800080E8C
+2015-01-30 00:47:27 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:47:27 - Transaction error type: Memory scrubbing error
+2015-01-30 00:47:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:47:27 - MC10_ADDR=0000000161C14EC0
+2015-01-30 00:47:27 - MC10_MISC=090000100010148C
+2015-01-30 00:47:46 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:47:47 - Transaction error type: Memory scrubbing error
+2015-01-30 00:47:47 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:47:47 - MC10_ADDR=0000000169404D00
+2015-01-30 00:47:47 - MC10_MISC=0900002000200E8C
+2015-01-30 00:48:32 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:48:32 - Transaction error type: Memory scrubbing error
+2015-01-30 00:48:32 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:48:32 - MC10_ADDR=000000017B404840
+2015-01-30 00:48:32 - MC10_MISC=090000400040208C
+2015-01-30 00:48:48 - MC10_STATUS=CC00008E000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:48:48 - Transaction error type: Memory scrubbing error
+2015-01-30 00:48:48 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:48:48 - MC10_ADDR=0000000182005B00
+2015-01-30 00:48:48 - MC10_MISC=090000080001188C
+2015-01-30 00:48:57 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:48:57 - Transaction error type: Memory scrubbing error
+2015-01-30 00:48:57 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:48:57 - MC10_ADDR=0000000185415100
+2015-01-30 00:48:57 - MC10_MISC=090000100010088C
+2015-01-30 00:49:02 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:49:03 - Transaction error type: Memory scrubbing error
+2015-01-30 00:49:03 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:49:03 - MC10_ADDR=0000000187C05100
+2015-01-30 00:49:03 - MC10_MISC=0900000040004E8C
+2015-01-30 00:49:11 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:49:11 - Transaction error type: Memory scrubbing error
+2015-01-30 00:49:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:49:12 - MC10_ADDR=000000018B015300
+2015-01-30 00:49:12 - MC10_MISC=0900100010000E8C
+2015-01-30 00:49:19 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:49:19 - Transaction error type: Memory scrubbing error
+2015-01-30 00:49:19 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:49:19 - MC10_ADDR=000000018E0058C0
+2015-01-30 00:49:19 - MC10_MISC=090008000800148C
+2015-01-30 00:49:28 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:49:28 - Transaction error type: Memory scrubbing error
+2015-01-30 00:49:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:49:28 - MC10_ADDR=0000000191815240
+2015-01-30 00:49:28 - MC10_MISC=090000020002208C
+2015-01-30 00:50:04 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:04 - MC10_ADDR=00000001A009DE00
+2015-01-30 00:50:04 - MC10_MISC=090000080008148C
+2015-01-30 00:50:08 - MC10_STATUS=8C000048000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:09 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:09 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:09 - MC10_ADDR=00000001A2004F00
+2015-01-30 00:50:09 - MC10_MISC=090020002000108C
+2015-01-30 00:50:20 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:22 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:22 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:22 - MC10_ADDR=00000001A6814F40
+2015-01-30 00:50:22 - MC10_MISC=090000080008148C
+2015-01-30 00:50:26 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:27 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:27 - MC10_ADDR=00000001A9015740
+2015-01-30 00:50:27 - MC10_MISC=090002000200148C
+2015-01-30 00:50:33 - MC10_STATUS=8C000051000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:33 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:33 - MC10_ADDR=00000001ABC14B80
+2015-01-30 00:50:33 - MC10_MISC=090004000400228C
+2015-01-30 00:50:40 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:40 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:40 - MC10_ADDR=00000001AE414640
+2015-01-30 00:50:40 - MC10_MISC=0900004000401C8C
+2015-01-30 00:50:51 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:50:51 - Transaction error type: Memory scrubbing error
+2015-01-30 00:50:51 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:50:51 - MC10_ADDR=00000001B2C05400
+2015-01-30 00:50:51 - MC10_MISC=0900008000800E8C
+2015-01-30 00:51:19 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:51:19 - Transaction error type: Memory scrubbing error
+2015-01-30 00:51:20 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:51:20 - MC10_ADDR=00000001BDC04940
+2015-01-30 00:51:20 - MC10_MISC=090002000200188C
+2015-01-30 00:51:36 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:51:36 - Transaction error type: Memory scrubbing error
+2015-01-30 00:51:36 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:51:36 - MC10_ADDR=00000001C48143C0
+2015-01-30 00:51:36 - MC10_MISC=090001000100148C
+2015-01-30 00:51:41 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:51:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:51:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:51:41 - MC10_ADDR=00000001C6405840
+2015-01-30 00:51:41 - MC10_MISC=090020002000188C
+2015-01-30 00:51:48 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:51:48 - Transaction error type: Memory scrubbing error
+2015-01-30 00:51:48 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:51:48 - MC10_ADDR=00000001C9415780
+2015-01-30 00:51:48 - MC10_MISC=090008000800208C
+2015-01-30 00:52:24 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:24 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:24 - MC10_ADDR=00000001D7C14540
+2015-01-30 00:52:24 - MC10_MISC=090000100010148C
+2015-01-30 00:52:28 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:28 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:28 - MC10_ADDR=00000001D9005D00
+2015-01-30 00:52:28 - MC10_MISC=0900004000400E8C
+2015-01-30 00:52:33 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:33 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:33 - MC10_ADDR=00000001DB405100
+2015-01-30 00:52:33 - MC10_MISC=090000010001088C
+2015-01-30 00:52:39 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:39 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:39 - MC10_ADDR=00000001DDC158C0
+2015-01-30 00:52:39 - MC10_MISC=0900004000401C8C
+2015-01-30 00:52:42 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:42 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:42 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:42 - MC10_ADDR=00000001DE8042C0
+2015-01-30 00:52:42 - MC10_MISC=090010001000008C
+2015-01-30 00:52:55 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:52:55 - Transaction error type: Memory scrubbing error
+2015-01-30 00:52:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:52:55 - MC10_ADDR=00000001E4005B80
+2015-01-30 00:52:55 - MC10_MISC=0900000100011E8C
+2015-01-30 00:53:02 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:02 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:02 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:02 - MC10_ADDR=00000001E6C15740
+2015-01-30 00:53:02 - MC10_MISC=0900080008000E8C
+2015-01-30 00:53:03 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:04 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:04 - MC10_ADDR=00000001E7814C80
+2015-01-30 00:53:04 - MC10_MISC=090000004000608C
+2015-01-30 00:53:09 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:09 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:09 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:09 - MC10_ADDR=00000001E9804A80
+2015-01-30 00:53:09 - MC10_MISC=090000020002088C
+2015-01-30 00:53:17 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:18 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:18 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:18 - MC10_ADDR=00000001ED015340
+2015-01-30 00:53:18 - MC10_MISC=090000008000948C
+2015-01-30 00:53:24 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:24 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:24 - MC10_ADDR=00000001EF414EC0
+2015-01-30 00:53:24 - MC10_MISC=090000040004208C
+2015-01-30 00:53:35 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:36 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:36 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:36 - MC10_ADDR=00000001F4005C40
+2015-01-30 00:53:36 - MC10_MISC=090000020002208C
+2015-01-30 00:53:40 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:41 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:41 - MC10_ADDR=00000001F60052C0
+2015-01-30 00:53:41 - MC10_MISC=090010001000148C
+2015-01-30 00:53:43 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:53:44 - Transaction error type: Memory scrubbing error
+2015-01-30 00:53:44 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:53:44 - MC10_ADDR=00000001F7415440
+2015-01-30 00:53:44 - MC10_MISC=090000080008148C
+2015-01-30 00:54:37 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:54:38 - Transaction error type: Memory scrubbing error
+2015-01-30 00:54:38 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:54:38 - MC10_ADDR=000000020C804D00
+2015-01-30 00:54:38 - MC10_MISC=0900000100010E8C
+2015-01-30 00:54:47 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:54:47 - Transaction error type: Memory scrubbing error
+2015-01-30 00:54:47 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:54:47 - MC10_ADDR=0000000210C15500
+2015-01-30 00:54:47 - MC10_MISC=0900000080009C8C
+2015-01-30 00:54:50 - MC10_STATUS=CC000087000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:54:51 - Transaction error type: Memory scrubbing error
+2015-01-30 00:54:51 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:54:51 - MC10_ADDR=0000000211C05A40
+2015-01-30 00:54:51 - MC10_MISC=090000080100008C
+2015-01-30 00:55:33 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:55:33 - Transaction error type: Memory scrubbing error
+2015-01-30 00:55:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:55:33 - MC10_ADDR=00000002228059C0
+2015-01-30 00:55:33 - MC10_MISC=090000200020188C
+2015-01-30 00:55:38 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:55:38 - Transaction error type: Memory scrubbing error
+2015-01-30 00:55:38 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:55:38 - MC10_ADDR=000000022501CAC0
+2015-01-30 00:55:38 - MC10_MISC=090004000100148C
+2015-01-30 00:55:44 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:55:44 - Transaction error type: Memory scrubbing error
+2015-01-30 00:55:44 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:55:44 - MC10_ADDR=0000000227405DC0
+2015-01-30 00:55:44 - MC10_MISC=0900001000100E8C
+2015-01-30 00:55:57 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:55:57 - Transaction error type: Memory scrubbing error
+2015-01-30 00:55:57 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:55:57 - MC10_ADDR=000000022C414C40
+2015-01-30 00:55:57 - MC10_MISC=090000100010188C
+2015-01-30 00:56:03 - MC10_STATUS=CC000090000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 00:56:03 - Transaction error type: Memory scrubbing error
+2015-01-30 00:56:03 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:56:03 - MC10_ADDR=000000022EC04CC0
+2015-01-30 00:56:03 - MC10_MISC=0900000040041E8C
+2015-01-30 00:56:05 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 00:56:05 - Transaction error type: Memory scrubbing error
+2015-01-30 00:56:05 - Model specific error: Corrected patrol scrub error
+2015-01-30 00:56:05 - MC10_ADDR=000000022F404FC0
+2015-01-30 00:56:05 - MC10_MISC=0900002000200E8C
+2015-01-30 01:04:17 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:04:17 - Transaction error type: Memory scrubbing error
+2015-01-30 01:04:17 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:04:17 - MC10_ADDR=00000000C3005A40
+2015-01-30 01:04:17 - MC10_MISC=090000010001008C
+2015-01-30 01:04:26 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:04:27 - Transaction error type: Memory scrubbing error
+2015-01-30 01:04:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:04:27 - MC10_ADDR=00000000C6C9C740
+2015-01-30 01:04:27 - MC10_MISC=090008000800088C
+2015-01-30 01:04:29 - MC10_STATUS=8C000051000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:04:30 - Transaction error type: Memory scrubbing error
+2015-01-30 01:04:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:04:30 - MC10_ADDR=00000000C7D9C0C0
+2015-01-30 01:04:30 - MC10_MISC=090000400040228C
+2015-01-30 01:04:33 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:04:33 - Transaction error type: Memory scrubbing error
+2015-01-30 01:04:34 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:04:34 - MC10_ADDR=00000000C94052C0
+2015-01-30 01:04:34 - MC10_MISC=0900001000100E8C
+2015-01-30 01:04:58 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:04:58 - Transaction error type: Memory scrubbing error
+2015-01-30 01:04:58 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:04:58 - MC10_ADDR=0000000103404E00
+2015-01-30 01:04:58 - MC10_MISC=0900100010000E8C
+2015-01-30 01:05:06 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:05:06 - Transaction error type: Memory scrubbing error
+2015-01-30 01:05:06 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:05:06 - MC10_ADDR=0000000106805EC0
+2015-01-30 01:05:06 - MC10_MISC=0900040004000E8C
+2015-01-30 01:05:33 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:05:33 - Transaction error type: Memory scrubbing error
+2015-01-30 01:05:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:05:33 - MC10_ADDR=0000000111005E80
+2015-01-30 01:05:33 - MC10_MISC=090000020002208C
+2015-01-30 01:05:52 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:05:52 - Transaction error type: Memory scrubbing error
+2015-01-30 01:05:52 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:05:52 - MC10_ADDR=0000000118804AC0
+2015-01-30 01:05:52 - MC10_MISC=090000100010048C
+2015-01-30 01:07:09 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:07:09 - Transaction error type: Memory scrubbing error
+2015-01-30 01:07:09 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:07:09 - MC10_ADDR=0000000137405A80
+2015-01-30 01:07:09 - MC10_MISC=090000010001148C
+2015-01-30 01:07:19 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:07:20 - Transaction error type: Memory scrubbing error
+2015-01-30 01:07:20 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:07:20 - MC10_ADDR=000000013B405B80
+2015-01-30 01:07:20 - MC10_MISC=0900000080008E8C
+2015-01-30 01:07:40 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 01:07:40 - Transaction error type: Memory scrubbing error
+2015-01-30 01:07:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 01:07:40 - MC10_ADDR=0000000143C05400
+2015-01-30 01:07:40 - MC10_MISC=090000080008148C
+2015-01-30 01:09:05 - Finished Stage 1, Pattern=FFFFFFFF
+2015-01-30 01:09:05 - Starting Stage 2, Pattern=FFFFFFFF
+2015-01-30 01:09:09 - Finished Stage 2, Pattern=FFFFFFFF
+2015-01-30 01:09:11 - Starting pass #3
+2015-01-30 01:09:11 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2015-01-30 01:09:11 - MC10_STATUS=C800050700800092 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=20, Error code=0092)
+2015-01-30 01:09:11 - Transaction error type: Memory read error
+2015-01-30 01:09:11 - Model specific error: Reserved
+2015-01-30 01:09:11 - MC10_ADDR=0000000000000000
+2015-01-30 01:09:11 - MC10_MISC=C900002000200E8C
+2015-01-30 01:09:14 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2015-01-30 01:09:20 - Running test #2 (Test 2 [Address test, own address])
+2015-01-30 01:09:26 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2015-01-30 01:10:36 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2015-01-30 01:15:27 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2015-01-30 01:21:53 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2015-01-30 01:26:21 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2015-01-30 01:52:37 - Running test #8 (Test 8 [Random number sequence])
+2015-01-30 02:05:36 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2015-01-30 02:55:34 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2015-01-30 02:55:37 - Starting Stage 0, Pattern=00000000
+2015-01-30 02:55:40 - Finished Stage 0, Pattern=00000000
+2015-01-30 03:00:40 - Starting Stage 1, Pattern=00000000
+2015-01-30 03:00:44 - Finished Stage 1, Pattern=00000000
+2015-01-30 03:00:44 - Starting Stage 0, Pattern=FFFFFFFF
+2015-01-30 03:00:48 - Finished Stage 0, Pattern=FFFFFFFF
+2015-01-30 03:05:48 - Starting Stage 1, Pattern=FFFFFFFF
+2015-01-30 03:05:52 - Finished Stage 1, Pattern=FFFFFFFF
+2015-01-30 03:05:54 - Running test #13 (Test 13 [Hammer test])
+2015-01-30 03:05:58 - Starting Stage 0, Pattern=00000000
+2015-01-30 03:06:00 - Finished Stage 0, Pattern=00000000
+2015-01-30 03:06:01 - Starting Stage 1, Pattern=00000000
+2015-01-30 03:06:36 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:06:36 - Transaction error type: Memory scrubbing error
+2015-01-30 03:06:36 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:06:36 - MC10_ADDR=0000000026D05980
+2015-01-30 03:06:36 - MC10_MISC=090000004000408C
+2015-01-30 03:06:50 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:06:51 - Transaction error type: Memory scrubbing error
+2015-01-30 03:06:51 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:06:51 - MC10_ADDR=000000002C405780
+2015-01-30 03:06:51 - MC10_MISC=090000010001208C
+2015-01-30 03:06:53 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:06:53 - Transaction error type: Memory scrubbing error
+2015-01-30 03:06:53 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:06:53 - MC10_ADDR=000000002D405240
+2015-01-30 03:06:53 - MC10_MISC=0900000040005A8C
+2015-01-30 03:08:58 - MC10_STATUS=CC000086000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 03:09:00 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:00 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:00 - MC10_ADDR=000000005F478E80
+2015-01-30 03:09:00 - MC10_MISC=0900040000009C8C
+2015-01-30 03:09:26 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:09:26 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:26 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:26 - MC10_ADDR=000000006A878280
+2015-01-30 03:09:26 - MC10_MISC=090000400002168C
+2015-01-30 03:09:34 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:09:34 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:34 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:34 - MC10_ADDR=000000006D878DC0
+2015-01-30 03:09:34 - MC10_MISC=0900000100010C8C
+2015-01-30 03:09:39 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:09:39 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:40 - MC10_ADDR=000000006F878F00
+2015-01-30 03:09:40 - MC10_MISC=090000004000468C
+2015-01-30 03:09:46 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:09:46 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:46 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:46 - MC10_ADDR=0000000072068E40
+2015-01-30 03:09:46 - MC10_MISC=0900080008000C8C
+2015-01-30 03:09:55 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:09:55 - Transaction error type: Memory scrubbing error
+2015-01-30 03:09:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:09:55 - MC10_ADDR=0000000075878E00
+2015-01-30 03:09:55 - MC10_MISC=0900000040004C8C
+2015-01-30 03:10:00 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:10:00 - Transaction error type: Memory scrubbing error
+2015-01-30 03:10:01 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:10:01 - MC10_ADDR=0000000077C68C00
+2015-01-30 03:10:01 - MC10_MISC=0900008000801A8C
+2015-01-30 03:10:09 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:10:10 - Transaction error type: Memory scrubbing error
+2015-01-30 03:10:10 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:10:10 - MC10_ADDR=000000007B468A80
+2015-01-30 03:10:10 - MC10_MISC=090020002000208C
+2015-01-30 03:10:57 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:10:58 - Transaction error type: Memory scrubbing error
+2015-01-30 03:10:58 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:10:58 - MC10_ADDR=000000008E8692C0
+2015-01-30 03:10:58 - MC10_MISC=090010001000168C
+2015-01-30 03:11:12 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:11:13 - Transaction error type: Memory scrubbing error
+2015-01-30 03:11:13 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:11:13 - MC10_ADDR=0000000094468780
+2015-01-30 03:11:13 - MC10_MISC=090008000800168C
+2015-01-30 03:11:27 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:11:27 - Transaction error type: Memory scrubbing error
+2015-01-30 03:11:27 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:11:27 - MC10_ADDR=000000009A469EC0
+2015-01-30 03:11:27 - MC10_MISC=0900100010000A8C
+2015-01-30 03:11:29 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:11:30 - Transaction error type: Memory scrubbing error
+2015-01-30 03:11:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:11:30 - MC10_ADDR=000000009B878480
+2015-01-30 03:11:30 - MC10_MISC=0900080008001A8C
+2015-01-30 03:11:33 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:11:34 - Transaction error type: Memory scrubbing error
+2015-01-30 03:11:34 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:11:34 - MC10_ADDR=000000009CC783C0
+2015-01-30 03:11:34 - MC10_MISC=0900000100010A8C
+2015-01-30 03:11:52 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:11:53 - Transaction error type: Memory scrubbing error
+2015-01-30 03:11:53 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:11:53 - MC10_ADDR=00000000A4478E80
+2015-01-30 03:11:53 - MC10_MISC=090002000200168C
+2015-01-30 03:12:21 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:22 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:22 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:22 - MC10_ADDR=00000000AFC79300
+2015-01-30 03:12:22 - MC10_MISC=090000200020128C
+2015-01-30 03:12:27 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:28 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:28 - MC10_ADDR=00000000B2469480
+2015-01-30 03:12:28 - MC10_MISC=090000010001028C
+2015-01-30 03:12:30 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:30 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:30 - MC10_ADDR=00000000B38692C0
+2015-01-30 03:12:30 - MC10_MISC=090000004000468C
+2015-01-30 03:12:42 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:43 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:43 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:43 - MC10_ADDR=00000000B8869340
+2015-01-30 03:12:43 - MC10_MISC=090020002000048C
+2015-01-30 03:12:44 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:45 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:45 - MC10_ADDR=00000000B9068040
+2015-01-30 03:12:45 - MC10_MISC=0900000400041A8C
+2015-01-30 03:12:46 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:12:47 - Transaction error type: Memory scrubbing error
+2015-01-30 03:12:47 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:12:47 - MC10_ADDR=00000000B9878780
+2015-01-30 03:12:47 - MC10_MISC=0900000040005E8C
+2015-01-30 03:14:28 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:14:29 - Transaction error type: Memory scrubbing error
+2015-01-30 03:14:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:14:29 - MC10_ADDR=0000000112468600
+2015-01-30 03:14:29 - MC10_MISC=0900000100010A8C
+2015-01-30 03:26:43 - MC10_STATUS=CC00008A000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 03:26:43 - Transaction error type: Memory scrubbing error
+2015-01-30 03:26:43 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:26:43 - MC10_ADDR=0000000006469140
+2015-01-30 03:26:43 - MC10_MISC=090008000400008C
+2015-01-30 03:26:51 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:26:51 - Transaction error type: Memory scrubbing error
+2015-01-30 03:26:51 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:26:51 - MC10_ADDR=00000000090054C0
+2015-01-30 03:26:51 - MC10_MISC=090008000800148C
+2015-01-30 03:27:05 - MC10_STATUS=8C000049000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:27:05 - Transaction error type: Memory scrubbing error
+2015-01-30 03:27:05 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:27:05 - MC10_ADDR=000000000F0683C0
+2015-01-30 03:27:05 - MC10_MISC=090000020002128C
+2015-01-30 03:27:35 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:27:35 - Transaction error type: Memory scrubbing error
+2015-01-30 03:27:35 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:27:35 - MC10_ADDR=000000001AC79F80
+2015-01-30 03:27:35 - MC10_MISC=090000040004048C
+2015-01-30 03:27:39 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:27:39 - Transaction error type: Memory scrubbing error
+2015-01-30 03:27:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:27:39 - MC10_ADDR=000000001C469940
+2015-01-30 03:27:39 - MC10_MISC=0900002000200A8C
+2015-01-30 03:28:04 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:06 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:06 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:06 - MC10_ADDR=0000000026468700
+2015-01-30 03:28:06 - MC10_MISC=090000200020068C
+2015-01-30 03:28:12 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:12 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:12 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:12 - MC10_ADDR=00000000294785C0
+2015-01-30 03:28:12 - MC10_MISC=0900001000101E8C
+2015-01-30 03:28:13 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:14 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:14 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:14 - MC10_ADDR=000000002A069580
+2015-01-30 03:28:14 - MC10_MISC=090000800080048C
+2015-01-30 03:28:19 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:19 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:20 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:20 - MC10_ADDR=000000002C405780
+2015-01-30 03:28:20 - MC10_MISC=090000010001208C
+2015-01-30 03:28:21 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:21 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:22 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:22 - MC10_ADDR=000000002D405240
+2015-01-30 03:28:22 - MC10_MISC=0900000040005A8C
+2015-01-30 03:28:24 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:24 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:24 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:24 - MC10_ADDR=000000002E8685C0
+2015-01-30 03:28:24 - MC10_MISC=0900100010000A8C
+2015-01-30 03:28:40 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:28:41 - Transaction error type: Memory scrubbing error
+2015-01-30 03:28:41 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:28:41 - MC10_ADDR=0000000034C79900
+2015-01-30 03:28:41 - MC10_MISC=0900040004000A8C
+2015-01-30 03:29:25 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:29:26 - Transaction error type: Memory scrubbing error
+2015-01-30 03:29:26 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:29:26 - MC10_ADDR=0000000046C68D00
+2015-01-30 03:29:26 - MC10_MISC=0900004000401A8C
+2015-01-30 03:29:29 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:29:30 - Transaction error type: Memory scrubbing error
+2015-01-30 03:29:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:29:30 - MC10_ADDR=0000000048468700
+2015-01-30 03:29:30 - MC10_MISC=0900000800080C8C
+2015-01-30 03:29:46 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:29:46 - Transaction error type: Memory scrubbing error
+2015-01-30 03:29:46 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:29:46 - MC10_ADDR=000000004EC68D40
+2015-01-30 03:29:46 - MC10_MISC=0900002000201A8C
+2015-01-30 03:30:04 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:30:04 - Transaction error type: Memory scrubbing error
+2015-01-30 03:30:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:30:04 - MC10_ADDR=0000000055C68FC0
+2015-01-30 03:30:04 - MC10_MISC=0900008000800A8C
+2015-01-30 03:30:27 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:30:28 - Transaction error type: Memory scrubbing error
+2015-01-30 03:30:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:30:28 - MC10_ADDR=000000005F469F80
+2015-01-30 03:30:28 - MC10_MISC=0900000080008C8C
+2015-01-30 03:30:29 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:30:30 - Transaction error type: Memory scrubbing error
+2015-01-30 03:30:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:30:30 - MC10_ADDR=0000000060168280
+2015-01-30 03:30:30 - MC10_MISC=0900000200021A8C
+2015-01-30 03:30:32 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:30:33 - Transaction error type: Memory scrubbing error
+2015-01-30 03:30:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:30:33 - MC10_ADDR=0000000061968300
+2015-01-30 03:30:33 - MC10_MISC=0900020002001A8C
+2015-01-30 03:30:39 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:30:39 - Transaction error type: Memory scrubbing error
+2015-01-30 03:30:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:30:39 - MC10_ADDR=0000000064568380
+2015-01-30 03:30:39 - MC10_MISC=090000101000068C
+2015-01-30 03:31:15 - MC10_STATUS=8C000046000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:31:15 - Transaction error type: Memory scrubbing error
+2015-01-30 03:31:15 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:31:15 - MC10_ADDR=0000000072068E40
+2015-01-30 03:31:15 - MC10_MISC=0900080008000C8C
+2015-01-30 03:31:29 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:31:29 - Transaction error type: Memory scrubbing error
+2015-01-30 03:31:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:31:29 - MC10_ADDR=0000000077C68C00
+2015-01-30 03:31:29 - MC10_MISC=0900008000801A8C
+2015-01-30 03:31:38 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:31:38 - Transaction error type: Memory scrubbing error
+2015-01-30 03:31:38 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:31:38 - MC10_ADDR=000000007B468A80
+2015-01-30 03:31:38 - MC10_MISC=090020002000208C
+2015-01-30 03:32:28 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:32:28 - Transaction error type: Memory scrubbing error
+2015-01-30 03:32:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:32:29 - MC10_ADDR=000000008F8688C0
+2015-01-30 03:32:29 - MC10_MISC=090000020002008C
+2015-01-30 03:32:40 - MC10_STATUS=8C00004B000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:32:40 - Transaction error type: Memory scrubbing error
+2015-01-30 03:32:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:32:40 - MC10_ADDR=0000000094468780
+2015-01-30 03:32:40 - MC10_MISC=090008000800168C
+2015-01-30 03:32:55 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:32:55 - Transaction error type: Memory scrubbing error
+2015-01-30 03:32:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:32:56 - MC10_ADDR=000000009A469EC0
+2015-01-30 03:32:56 - MC10_MISC=0900100010000A8C
+2015-01-30 03:33:56 - MC10_STATUS=8C000041000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:33:56 - Transaction error type: Memory scrubbing error
+2015-01-30 03:33:56 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:33:56 - MC10_ADDR=00000000B2469480
+2015-01-30 03:33:57 - MC10_MISC=090000010001028C
+2015-01-30 03:33:59 - MC10_STATUS=8C000043000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:33:59 - Transaction error type: Memory scrubbing error
+2015-01-30 03:33:59 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:33:59 - MC10_ADDR=00000000B38692C0
+2015-01-30 03:33:59 - MC10_MISC=090000004000468C
+2015-01-30 03:34:12 - MC10_STATUS=8C000042000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:34:12 - Transaction error type: Memory scrubbing error
+2015-01-30 03:34:12 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:34:12 - MC10_ADDR=00000000B8869340
+2015-01-30 03:34:12 - MC10_MISC=090020002000048C
+2015-01-30 03:34:44 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:34:44 - Transaction error type: Memory scrubbing error
+2015-01-30 03:34:44 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:34:44 - MC10_ADDR=00000000C5014500
+2015-01-30 03:34:44 - MC10_MISC=090000800080008C
+2015-01-30 03:34:53 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:34:54 - Transaction error type: Memory scrubbing error
+2015-01-30 03:34:54 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:34:54 - MC10_ADDR=00000000C94052C0
+2015-01-30 03:34:54 - MC10_MISC=0900001000100E8C
+2015-01-30 03:35:11 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:35:12 - Transaction error type: Memory scrubbing error
+2015-01-30 03:35:12 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:35:12 - MC10_ADDR=0000000100005540
+2015-01-30 03:35:12 - MC10_MISC=090000010001148C
+2015-01-30 03:35:54 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:35:54 - Transaction error type: Memory scrubbing error
+2015-01-30 03:35:54 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:35:54 - MC10_ADDR=0000000111005E80
+2015-01-30 03:35:54 - MC10_MISC=090000020002208C
+2015-01-30 03:35:57 - MC10_STATUS=8C000045000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:35:57 - Transaction error type: Memory scrubbing error
+2015-01-30 03:35:57 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:35:57 - MC10_ADDR=0000000112468600
+2015-01-30 03:35:57 - MC10_MISC=0900000100010A8C
+2015-01-30 03:37:29 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:37:30 - Transaction error type: Memory scrubbing error
+2015-01-30 03:37:30 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:37:30 - MC10_ADDR=00000001374058C0
+2015-01-30 03:37:30 - MC10_MISC=090000004000608C
+2015-01-30 03:37:44 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:37:44 - Transaction error type: Memory scrubbing error
+2015-01-30 03:37:44 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:37:44 - MC10_ADDR=000000013C814C00
+2015-01-30 03:37:44 - MC10_MISC=090000080008148C
+2015-01-30 03:38:17 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:38:17 - Transaction error type: Memory scrubbing error
+2015-01-30 03:38:18 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:38:18 - MC10_ADDR=000000014A005500
+2015-01-30 03:38:18 - MC10_MISC=090000800080088C
+2015-01-30 03:38:37 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:38:37 - Transaction error type: Memory scrubbing error
+2015-01-30 03:38:37 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:38:37 - MC10_ADDR=0000000152004CC0
+2015-01-30 03:38:37 - MC10_MISC=0900004000400E8C
+2015-01-30 03:38:47 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:38:47 - Transaction error type: Memory scrubbing error
+2015-01-30 03:38:47 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:38:47 - MC10_ADDR=0000000155D05380
+2015-01-30 03:38:47 - MC10_MISC=090000400040208C
+2015-01-30 03:39:12 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:39:13 - Transaction error type: Memory scrubbing error
+2015-01-30 03:39:13 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:39:13 - MC10_ADDR=000000015FC14800
+2015-01-30 03:39:13 - MC10_MISC=090002000200188C
+2015-01-30 03:39:18 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:39:19 - Transaction error type: Memory scrubbing error
+2015-01-30 03:39:19 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:39:19 - MC10_ADDR=0000000162405380
+2015-01-30 03:39:19 - MC10_MISC=0900010001001C8C
+2015-01-30 03:39:52 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:39:52 - Transaction error type: Memory scrubbing error
+2015-01-30 03:39:52 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:39:52 - MC10_ADDR=000000016F804280
+2015-01-30 03:39:52 - MC10_MISC=0900000200021C8C
+2015-01-30 03:39:55 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:39:55 - Transaction error type: Memory scrubbing error
+2015-01-30 03:39:55 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:39:55 - MC10_ADDR=0000000170C15740
+2015-01-30 03:39:55 - MC10_MISC=090000800080208C
+2015-01-30 03:40:02 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:02 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:02 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:02 - MC10_ADDR=0000000174004440
+2015-01-30 03:40:02 - MC10_MISC=0900001010000E8C
+2015-01-30 03:40:04 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:04 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:04 - MC10_ADDR=0000000174814CC0
+2015-01-30 03:40:04 - MC10_MISC=0900000100010E8C
+2015-01-30 03:40:11 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:12 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:12 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:12 - MC10_ADDR=0000000177804540
+2015-01-30 03:40:12 - MC10_MISC=090004000400148C
+2015-01-30 03:40:21 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:21 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:21 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:21 - MC10_ADDR=000000017B404840
+2015-01-30 03:40:21 - MC10_MISC=090000400040208C
+2015-01-30 03:40:33 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:33 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:33 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:33 - MC10_ADDR=000000017FC04780
+2015-01-30 03:40:33 - MC10_MISC=0900010001000E8C
+2015-01-30 03:40:42 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:43 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:43 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:43 - MC10_ADDR=00000001838042C0
+2015-01-30 03:40:43 - MC10_MISC=090000400040148C
+2015-01-30 03:40:55 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:40:56 - Transaction error type: Memory scrubbing error
+2015-01-30 03:40:56 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:40:56 - MC10_ADDR=0000000188C04240
+2015-01-30 03:40:56 - MC10_MISC=090000200020208C
+2015-01-30 03:41:11 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:41:11 - Transaction error type: Memory scrubbing error
+2015-01-30 03:41:11 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:41:11 - MC10_ADDR=000000018EC04000
+2015-01-30 03:41:11 - MC10_MISC=0900000100010E8C
+2015-01-30 03:41:17 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:41:17 - Transaction error type: Memory scrubbing error
+2015-01-30 03:41:17 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:41:17 - MC10_ADDR=0000000191415900
+2015-01-30 03:41:17 - MC10_MISC=090000040004208C
+2015-01-30 03:42:10 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:42:10 - Transaction error type: Memory scrubbing error
+2015-01-30 03:42:10 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:42:10 - MC10_ADDR=00000001A6505940
+2015-01-30 03:42:10 - MC10_MISC=090000800080208C
+2015-01-30 03:42:15 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:42:15 - Transaction error type: Memory scrubbing error
+2015-01-30 03:42:15 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:42:15 - MC10_ADDR=00000001A84154C0
+2015-01-30 03:42:15 - MC10_MISC=090000200020088C
+2015-01-30 03:42:29 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:42:29 - Transaction error type: Memory scrubbing error
+2015-01-30 03:42:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:42:29 - MC10_ADDR=00000001AE015BC0
+2015-01-30 03:42:29 - MC10_MISC=090000010001208C
+2015-01-30 03:42:57 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:42:58 - Transaction error type: Memory scrubbing error
+2015-01-30 03:42:58 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:42:58 - MC10_ADDR=00000001B9505840
+2015-01-30 03:42:58 - MC10_MISC=090000100010148C
+2015-01-30 03:43:03 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:43:04 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:04 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:04 - MC10_ADDR=00000001BB904680
+2015-01-30 03:43:04 - MC10_MISC=090000040004208C
+2015-01-30 03:43:08 - MC10_STATUS=CC00008A000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 03:43:08 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:08 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:08 - MC10_ADDR=00000001BDC055C0
+2015-01-30 03:43:08 - MC10_MISC=0900080000801E8C
+2015-01-30 03:43:20 - MC10_STATUS=8C00004A000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:43:20 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:20 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:21 - MC10_ADDR=00000001C2815BC0
+2015-01-30 03:43:21 - MC10_MISC=090000008000948C
+2015-01-30 03:43:28 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:43:28 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:28 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:28 - MC10_ADDR=00000001C5815240
+2015-01-30 03:43:28 - MC10_MISC=090002000200208C
+2015-01-30 03:43:45 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:43:45 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:45 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:45 - MC10_ADDR=00000001CC004A40
+2015-01-30 03:43:45 - MC10_MISC=0900000040005E8C
+2015-01-30 03:43:52 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:43:52 - Transaction error type: Memory scrubbing error
+2015-01-30 03:43:52 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:43:52 - MC10_ADDR=00000001CF415380
+2015-01-30 03:43:52 - MC10_MISC=0900080008001C8C
+2015-01-30 03:44:01 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:01 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:01 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:01 - MC10_ADDR=00000001D2814F80
+2015-01-30 03:44:01 - MC10_MISC=0900080008000E8C
+2015-01-30 03:44:26 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:26 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:26 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:26 - MC10_ADDR=00000001DC415700
+2015-01-30 03:44:26 - MC10_MISC=090000400040208C
+2015-01-30 03:44:29 - MC10_STATUS=CC000083000800C2 (Overflow=Yes, Uncorrected=No, Recoverable=No, Corrected error count=2, Error code=00C2)
+2015-01-30 03:44:29 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:29 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:29 - MC10_ADDR=00000001DD814980
+2015-01-30 03:44:29 - MC10_MISC=090000200020208C
+2015-01-30 03:44:37 - MC10_STATUS=8C000050000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:37 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:38 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:38 - MC10_ADDR=00000001E1104DC0
+2015-01-30 03:44:38 - MC10_MISC=090000080008208C
+2015-01-30 03:44:39 - MC10_STATUS=8C00004F000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:40 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:40 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:40 - MC10_ADDR=00000001E20056C0
+2015-01-30 03:44:40 - MC10_MISC=090020000008088C
+2015-01-30 03:44:53 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:53 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:53 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:53 - MC10_ADDR=00000001E7004A00
+2015-01-30 03:44:53 - MC10_MISC=0900000040005C8C
+2015-01-30 03:44:55 - MC10_STATUS=8C00004D000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:44:56 - Transaction error type: Memory scrubbing error
+2015-01-30 03:44:56 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:44:56 - MC10_ADDR=00000001E8015D40
+2015-01-30 03:44:56 - MC10_MISC=0900004000401A8C
+2015-01-30 03:45:09 - MC10_STATUS=8C000047000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:45:09 - Transaction error type: Memory scrubbing error
+2015-01-30 03:45:09 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:45:09 - MC10_ADDR=00000001ED814CC0
+2015-01-30 03:45:09 - MC10_MISC=0900000200020E8C
+2015-01-30 03:45:30 - MC10_STATUS=8C00004C000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:45:31 - Transaction error type: Memory scrubbing error
+2015-01-30 03:45:31 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:45:31 - MC10_ADDR=00000001F6404D00
+2015-01-30 03:45:31 - MC10_MISC=090000020002188C
+2015-01-30 03:45:39 - MC10_STATUS=8C00004E000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:45:39 - Transaction error type: Memory scrubbing error
+2015-01-30 03:45:39 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:45:39 - MC10_ADDR=00000001F949CD40
+2015-01-30 03:45:39 - MC10_MISC=0900000040005C8C
+2015-01-30 03:46:02 - MC10_STATUS=8C000044000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:46:02 - Transaction error type: Memory scrubbing error
+2015-01-30 03:46:02 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:46:02 - MC10_ADDR=0000000202C144C0
+2015-01-30 03:46:02 - MC10_MISC=090000080008088C
+2015-01-30 03:46:04 - MC10_STATUS=8C000040000800C2 (Overflow=No, Uncorrected=No, Recoverable=No, Corrected error count=1, Error code=00C2)
+2015-01-30 03:46:05 - Transaction error type: Memory scrubbing error
+2015-01-30 03:46:05 - Model specific error: Corrected patrol scrub error
+2015-01-30 03:46:05 - MC10_ADDR=0000000203815140
+2015-01-30 03:46:05 - MC10_MISC=090000040004008C
