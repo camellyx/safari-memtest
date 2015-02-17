@@ -36,7 +36,7 @@ public class QuickParse{
             System.out.println("Error reading file.");
         }
         
-        System.out.println(new File(".").getAbsoluteFile());
+        System.out.println("Ding! Hot and fresh out the kitchen.");
                 
     }
 }
