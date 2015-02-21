@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
-public class QuickParse{
+public class Tabler{
     public static void main(String[] args){
         String newFileStat = "defaultStat";
         String newFileMisc = "defaultMisc";
