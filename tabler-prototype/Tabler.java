@@ -70,9 +70,6 @@ public class Tabler{
         }
         catch(IOException ex){
             System.out.println("Error reading file.");
-        }
-        
-        System.out.println(new File(".").getAbsoluteFile());
-                
+        }       
     }
 }
