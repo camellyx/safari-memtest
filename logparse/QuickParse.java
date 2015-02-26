@@ -10,10 +10,18 @@ public class QuickParse{
         String line = null;
         try{
             Scanner scanny = new Scanner(System.in);
-            System.out.print("Enter name of input file (placed in this folder): ");
-            oldFile = scanny.nextLine();
-            System.out.print("Enter name of output file: ");
-            newFile = scanny.nextLine();
+            if (args[0]!=null){
+                oldFile = args[0];
+            }else{
+                System.out.print("Enter name of input file (placed in this folder): ");
+                oldFile = scanny.nextLine();
+            }
+            if (args[1]!=null){
+                newFile = args[1];
+            }else{
+                System.out.print("Enter name of output file: ");
+                newFile = scanny.nextLine();
+            }
             BufferedReader br = new BufferedReader(new FileReader(oldFile));
             PrintWriter write = new PrintWriter(newFile);
             BufferedWriter bw = new BufferedWriter(write);
