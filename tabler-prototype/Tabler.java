@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
+import java.awt.Color;
 public class Tabler{
     public static void main(String[] args){
         String newFileStat = "defaultStat";
@@ -14,8 +15,12 @@ public class Tabler{
             String status;
             String time;
             Scanner scanny = new Scanner(System.in);
-            System.out.print("Enter name of input file (placed in this folder): ");
-            oldFile = scanny.nextLine();
+            if (args.length!=0){
+                oldFile = args[0];
+            }else{
+                System.out.print("Enter name of input file (placed in this folder): ");
+                oldFile = scanny.nextLine();
+            }
             System.out.print("Enter name of output file for MC10_STATUS: ");
             newFileStat = scanny.nextLine();
             BufferedReader BRSTAT = new BufferedReader(new FileReader(oldFile));
@@ -26,7 +31,7 @@ public class Tabler{
                 if (line.contains("MC10_STATUS")){
                     time = line.substring(0, line.indexOf('M')-3);
                     status = line.substring(line.indexOf('=')+1, line.indexOf('(')-1);
-                    BWSTAT.write(time+","+status+",");
+                    BWSTAT.write(time+" "+status);
                     BWSTAT.newLine();
                 }
             }
@@ -42,7 +47,7 @@ public class Tabler{
                 if (line.contains("MC10_MISC")){
                     time = line.substring(0, line.indexOf('M')-3);
                     status = line.substring(line.indexOf('=')+1, line.length());
-                    BWMISC.write(time+","+status+",");
+                    BWMISC.write(time+" "+status);
                     BWMISC.newLine();
                 }
             }
@@ -58,7 +63,9 @@ public class Tabler{
                 if (line.contains("MC10_ADDR")){
                     time = line.substring(0, line.indexOf('M')-3);
                     status = line.substring(line.indexOf('=')+1, line.length());
-                    BWADD.write(time+","+status+",");
+                    long addr = Long.parseLong(status, 16);
+                    status = String.valueOf(addr);
+                    BWADD.write(status);
                     BWADD.newLine();
                 }
             }

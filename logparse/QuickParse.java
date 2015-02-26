@@ -10,13 +10,13 @@ public class QuickParse{
         String line = null;
         try{
             Scanner scanny = new Scanner(System.in);
-            if (args[0]!=null){
+            if (args.length!=0){
                 oldFile = args[0];
             }else{
                 System.out.print("Enter name of input file (placed in this folder): ");
                 oldFile = scanny.nextLine();
             }
-            if (args[1]!=null){
+            if (args.length>1){
                 newFile = args[1];
             }else{
                 System.out.print("Enter name of output file: ");

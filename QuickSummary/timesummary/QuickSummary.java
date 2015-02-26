@@ -18,15 +18,22 @@ public class QuickSummary{
             String line = "";
             long currentTime = 0;
             java.util.Date startTime;
-            Scanner scanny = new Scanner(System.in);
-            System.out.print("Enter log file names in order to be read, or q to quit (only up to 100 files): ");
-            String input = "";
             File[] files = new File[100];
-            for (int i = 0; !input.equalsIgnoreCase("q"); i++){
-                input = scanny.nextLine();
-                if (input.equalsIgnoreCase("q"))
-                    break;
-                files[i] = new File(input);
+            if (args.length!=0){
+                int i = 0;
+                for (String s:args){
+                    files[i] = new File(s);
+                    i++;
+                }
+            }else{
+                System.out.print("Enter log file names in order to be read, or q to quit (only up to 100 files): ");
+                String input = "";
+                for (int i = 0; !input.equalsIgnoreCase("q"); i++){
+                    input = scanny.nextLine();
+                    if (input.equalsIgnoreCase("q"))
+                        break;
+                    files[i] = new File(input);
+                }
             }
             System.out.print("Enter name of output file for summary: ");
             newFile = scanny.nextLine();
