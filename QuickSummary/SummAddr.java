@@ -4,6 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.text.ParseException;
+import java.util.ArrayList;
 public class SummAddr{
     public static void main(String[] args){
         String newFile = "default.summary";
@@ -12,21 +13,21 @@ public class SummAddr{
             long currentTime = 0;
             java.util.Date startTime;
             Scanner scanny = new Scanner(System.in);
-            File[] files = new File[100];
+            ArrayList<File> files = new ArrayList<>();
             if (args.length!=0){
                 int i = 0;
                 for (String s:args){
-                    files[i] = new File(s);
+                    files.add(new File(s));
                     i++;
                 }
             }else{
-                System.out.print("Enter log file names in order to be read, or q to quit (only up to 100 files): ");
+                System.out.print("Enter log file names in order to be read. Enter blank line to quit: ");
                 String input = "";
-                for (int i = 0; !input.equalsIgnoreCase("q"); i++){
+                for (int i = 0; !input.equals(""); i++){
                     input = scanny.nextLine();
-                    if (input.equalsIgnoreCase("q"))
+                    if (input.equals(""))
                         break;
-                    files[i] = new File(input);
+                    files.add(new File(input));
                 }
             }
             System.out.print("Enter name of output file for summary: ");
@@ -35,8 +36,6 @@ public class SummAddr{
             BufferedWriter bw = new BufferedWriter(write);
             String status;
             for (File file:files){
-                if (file == null)
-                    break;
                 BufferedReader br = new BufferedReader(new FileReader(file));
                 while (line != null){
                     line = br.readLine();
@@ -46,7 +45,11 @@ public class SummAddr{
                     if (line.contains("MC10_ADDR")){
                         status = line.substring(line.indexOf('=')+1, line.length());
                         long addr = Long.parseLong(status, 16);
-                        status = String.valueOf(addr);
+                        long row = addr/8192;
+                        long column = addr%8192;
+                        String rs = String.valueOf(row);
+                        String cs = String.valueOf(column);
+                        status = rs+" "+cs;
                         bw.write(status);
                         bw.newLine();
                     }
