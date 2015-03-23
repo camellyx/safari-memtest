@@ -30,10 +30,10 @@ public class SummAddr{
                     files.add(new File(input));
                 }
             }
-            System.out.print("Enter name of output file for summary: ");
-            newFile = scanny.nextLine();
-            PrintWriter write = new PrintWriter(newFile);
-            BufferedWriter bw = new BufferedWriter(write);
+            //System.out.print("Enter name of output file for summary: ");
+            //newFile = scanny.nextLine();
+            //PrintWriter write = new PrintWriter(newFile);
+            //BufferedWriter bw = new BufferedWriter(write);
             String status;
             for (File file:files){
                 BufferedReader br = new BufferedReader(new FileReader(file));
@@ -49,14 +49,15 @@ public class SummAddr{
                         long column = addr%8192;
                         String rs = String.valueOf(row);
                         String cs = String.valueOf(column);
-                        status = rs+" "+cs;
-                        bw.write(status);
-                        bw.newLine();
+                        status = rs + " " + cs + "\n";
+                        System.out.print(status);
+                        //bw.write(status);
+                        //bw.newLine();
                     }
                 }
                 br.close();
             }
-            bw.close();
+            //bw.close();
         }
         catch(FileNotFoundException ex){
             System.out.println("Unable to open file");

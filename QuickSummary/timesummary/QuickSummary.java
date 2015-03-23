@@ -16,6 +16,7 @@ public class QuickSummary{
             String prevline = null;
             String prevprev = null;
             String line = "";
+            Scanner scanny = new Scanner(System.in);
             long currentTime = 0;
             java.util.Date startTime;
             File[] files = new File[100];
@@ -35,10 +36,10 @@ public class QuickSummary{
                     files[i] = new File(input);
                 }
             }
-            System.out.print("Enter name of output file for summary: ");
-            newFile = scanny.nextLine();
-            PrintWriter write = new PrintWriter(newFile);
-            BufferedWriter bw = new BufferedWriter(write);
+            //System.out.print("Enter name of output file for summary: ");
+            //newFile = scanny.nextLine();
+            //PrintWriter write = new PrintWriter(newFile);
+            //BufferedWriter bw = new BufferedWriter(write);
             for (File file:files){
                 if (file == null)
                     break;
@@ -47,8 +48,9 @@ public class QuickSummary{
                 line = br.readLine();
                 startTime = format.parse(line.substring(0, 19));
                 startTime.setTime(startTime.getTime()-currentTime);
-                bw.write(startTime.getTime() + " 0");
-                bw.newLine();
+                //System.out.print(startTime.getTime() + " 0\n");
+                //bw.write(startTime.getTime() + " 0");
+                //bw.newLine();
                 while (line != null){
                     prevprev = prevline;
                     prevline = line;
@@ -56,20 +58,22 @@ public class QuickSummary{
                     if (line == null){
                         time = format.parse(prevprev.substring(0, 19));
                         currentTime = (time.getTime()-startTime.getTime());
-                        bw.write((currentTime/1000) + " 0");
-                        bw.newLine();
+                        System.out.print((currentTime/1000) + " 0\n");
+                        //bw.write((currentTime/1000) + " 0");
+                        //bw.newLine();
                         break;
                     }
                     if (line.contains("MC10_STATUS")){
                         time = format.parse(line.substring(0, 19));
                         currentTime = (time.getTime()-startTime.getTime());
-                        bw.write((currentTime/1000) + " 1");
-                        bw.newLine();
+                        System.out.print((currentTime/1000) + " 1\n");
+                        //bw.write((currentTime/1000) + " 1");
+                        //bw.newLine();
                     }
                 }
                 br.close();
             }
-            bw.close();
+            //bw.close();
         }
         catch(FileNotFoundException ex){
             System.out.println("Unable to open file");

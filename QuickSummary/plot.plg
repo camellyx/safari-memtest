@@ -1,0 +1,7 @@
+#!/usr/bin/env gnuplot
+
+set terminal png
+set output pngfile
+
+plot logfile using 2:1
+
