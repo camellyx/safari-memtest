@@ -26,11 +26,11 @@ public class QuickParse{
             PrintWriter write = new PrintWriter(newFile);
             BufferedWriter bw = new BufferedWriter(write);
             while ((line = br.readLine()) != null){
-                if (line.contains("TEST SESSION") || line.contains("Finished")
-                    || line.contains("Running") || line.contains("Transaction")
-                    || line.contains("Model") || line.contains("MC10")
-                    || line.contains("Starting")){
-                    bw.write(line);
+                if(line.contains("MC10_ADDR")){
+                    bw.write(line.susbstring(line.indexOf('='), line.length));
+                    bw.newLine();
+                }else if (line.contains("test #"){
+                    bw.write(line.substring(line.indexOf('[')+1, line.indexOf('[')));
                     bw.newLine();
                 }
             }
@@ -43,8 +43,8 @@ public class QuickParse{
         catch(IOException ex){
             System.out.println("Error reading file.");
         }
-        
+
         System.out.println("Ding! Hot and fresh out the kitchen.");
-                
+
     }
 }
