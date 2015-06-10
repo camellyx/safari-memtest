@@ -1,10 +1,20 @@
+/**************************************
+*TestErrCounter.java
+*Nolan Dickey
+*
+*
+*
+*Outputs a text file with the number of
+*errors found in each test in Memtest86.
+***************************************/
+
 import java.io.*;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.ArrayList;
-public class QuickParse{
+public class TestErrCounter{
     public static void main(String[] args){
         String newFile = "default";
         String oldFile = "default";
@@ -16,13 +26,23 @@ public class QuickParse{
             ArrayList<File> files = new ArrayList<>();
             System.out.print("Enter directory: ");
             File folder = new File(scanny.nextLine());
-            System.out.print("Enter logfile extension: ");
-            String ext = scanny.nextLine();
+            System.out.print("Specify start or end of filename? ");
+            String ext="";
+            switch (scanny.nextLine().toLowerCase().charAt(0)){
+                case 's':
+                    System.out.print("Enter beginning of logfile name: ");
+                    ext = scanny.nextLine();
+                    break;
+                case 'e':
+                    System.out.print("Enter logfile extension/end: ");
+                    ext = scanny.nextLine();
+                    break;
+            }            
             File[] listF = folder.listFiles();
             for (File f:listF){
-                if (f.getName().endsWith(ext))
+                if (f.getName().startsWith(ext))
                     files.add(f);
-            }
+            }    
             System.out.print("Enter name of output file: ");    
             newFile = scanny.nextLine();
             PrintWriter write = new PrintWriter(newFile);
@@ -40,10 +60,15 @@ public class QuickParse{
                 }
                 br.close();            
             }
-            bw.write(String.format("%7d%7d%7d%7d%7d%7d%7d%7d%7d%7d%7d%7d",0,1,2,3,4,5,6,7,8,9,10,13));
-            bw.newLine();
+            int totalErrors = 0;
             for (int i:tests){
-                bw.write(String.format("%7d",i));;
+                totalErrors+=i;
+            }
+            int j = 0;
+            for (int i:tests){
+                bw.write(String.format("Test %d: %d (%2.2f",j,i,((double)i/(double)totalErrors)*100)+"%)");
+                bw.newLine();
+                j++;
             }
             bw.close();
         }
