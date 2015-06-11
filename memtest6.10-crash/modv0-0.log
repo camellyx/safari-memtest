@@ -1,0 +1,952 @@
+2015-06-11 13:14:02 - Attempting to retrieve the root directory of the data partition.
+2015-06-11 13:14:02 - Found 2 handles that supported SimpleFileSystem
+2015-06-11 13:14:02 - Checking handle 0 (7502E798)
+2015-06-11 13:14:02 - Handle is own partition
+2015-06-11 13:14:02 - Checking handle 1 (7502E498)
+2015-06-11 13:14:02 - HD node found: MBR type(2), Signature type(2), Part #(2), Start LBA(104448), Num Sectors(202719)
+2015-06-11 13:14:03 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(2048), Num Sectors(100353)
+2015-06-11 13:14:03 - =============================================
+2015-06-11 13:14:03 - MemTest86 V6.1.0 Free Build: 1000 (64-bit)
+2015-06-11 13:14:03 - =============================================
+2015-06-11 13:14:03 - Console size = 80 x 25
+2015-06-11 13:14:03 - Initializing localization strings
+2015-06-11 13:14:03 - Language en-US is supported
+2015-06-11 13:14:03 - Language fr-FR is supported
+2015-06-11 13:14:03 - Language es-AR is supported
+2015-06-11 13:14:03 - Language de-DE is supported
+2015-06-11 13:14:03 - GetGlyph failed for character 0x3041 (Warning Unknown Glyph)
+2015-06-11 13:14:03 - Language ja-JP is not supported
+2015-06-11 13:14:03 - GetGlyph failed for character 0x4E0F (Warning Unknown Glyph)
+2015-06-11 13:14:03 - Language zh-CN is not supported
+2015-06-11 13:14:03 - GetGlyph failed for character 0xF944 (Warning Unknown Glyph)
+2015-06-11 13:14:03 - Language zh-HK is not supported
+2015-06-11 13:14:03 - Font does not support all languages. Installing unicode font...
+2015-06-11 13:14:03 - InitFont - Font header version: 1.1
+2015-06-11 13:14:03 - InitFont - Number of narrow glyphs: 6969
+2015-06-11 13:14:03 - InitFont - Number of wide glyphs: 50117
+2015-06-11 13:14:04 - Language en-US is supported
+2015-06-11 13:14:04 - Language fr-FR is supported
+2015-06-11 13:14:04 - Language es-AR is supported
+2015-06-11 13:14:04 - Language de-DE is supported
+2015-06-11 13:14:04 - Language ja-JP is supported
+2015-06-11 13:14:04 - Language zh-CN is supported
+2015-06-11 13:14:04 - Language zh-HK is supported
+2015-06-11 13:14:04 - Intializing screen for graphics
+2015-06-11 13:14:04 - Getting CPUID
+2015-06-11 13:14:04 - Getting cache size
+2015-06-11 13:14:04 - get_cache_size - Vendor ID: GenuineIntel Brand ID: Intel(R) Xeon(R) CPU E5-2603 0 @ 1.80GHz
+2015-06-11 13:14:04 - L1 data cache: 32, 2, 16 [0x3C004121]
+2015-06-11 13:14:04 - L1 instruction cache size: 8 x 32KB
+2015-06-11 13:14:04 - L1 data cache size: 8 x 32KB
+2015-06-11 13:14:04 - L2 cache size: 8 x 256KB
+2015-06-11 13:14:04 - L3 cache size: 10240KB
+2015-06-11 13:14:04 - Measuring CPU/cache/mem speed
+2015-06-11 13:14:04 - cpuspeed - rdtsc instruction supported: 1
+2015-06-11 13:14:04 - cpuspeed - start ticks: 193889293908, end ticks: 193979296968 (difference: 90003060)
+2015-06-11 13:14:04 - cpu_cache_speed - (Attempt 1) clock cycle (ms): 1800061
+2015-06-11 13:14:04 - cpuspeed - rdtsc instruction supported: 1
+2015-06-11 13:14:04 - cpuspeed - start ticks: 194180324204, end ticks: 194270327308 (difference: 90003104)
+2015-06-11 13:14:04 - cpu_cache_speed - (Attempt 2) clock cycle (ms): 1800062
+2015-06-11 13:14:05 - cpuspeed - rdtsc instruction supported: 1
+2015-06-11 13:14:05 - cpuspeed - start ticks: 194453229556, end ticks: 194543232136 (difference: 90002580)
+2015-06-11 13:14:05 - cpu_cache_speed - (Attempt 3) clock cycle (ms): 1800051
+2015-06-11 13:14:05 - cpu_cache_speed - Using average of last 3 samples (1800051, 1800062, 1800061)
+2015-06-11 13:14:05 - cpu_cache_speed - CPU speed: 1800.0MHz
+2015-06-11 13:14:05 - cpu_cache_speed - measuring L1 cache speed at 0x75B87000 (32 KB)
+2015-06-11 13:14:05 - cpu_cache_speed - L1 cache speed: 49132 MB/s
+2015-06-11 13:14:05 - cpu_cache_speed - measuring L2 cache speed at 0x75B4F000 (256 KB)
+2015-06-11 13:14:05 - cpu_cache_speed - L2 cache speed: 26659 MB/s
+2015-06-11 13:14:05 - cpu_cache_speed - measuring L3 cache speed at 0x729DF000 (10240 KB)
+2015-06-11 13:14:05 - cpu_cache_speed - L3 cache speed: 13675 MB/s
+2015-06-11 13:14:05 - get_mem_speed - measuring mem speed at 0x6E15F000 (84480 KB)
+2015-06-11 13:14:06 - get_mem_speed - mem speed: 6690 MB/s
+2015-06-11 13:14:06 - cpu_cache_speed - Memory latency: 37.670 ns
+2015-06-11 13:14:06 - Retrieving CPU MSR data
+2015-06-11 13:14:06 - GetIntelArchitectureSpecificMSRInfo - CPU Intel(R) Xeon(R) CPU E5-2603 0 @ 1.80GHz: 6.45
+2015-06-11 13:14:07 - GetIntelArchitectureSpecificMSRInfo - Nehalem et al detected
+2015-06-11 13:14:07 - GetSandyBridgeFamilyMSRInfo_Static - MSR[0xCE] = 00000C0064011200
+2015-06-11 13:14:07 - GetSandyBridgeFamilyMSRInfo_Static - ExternalClock = 100003
+2015-06-11 13:14:07 - GetSandyBridgeFamilyMSRInfo_Static - MSR[0x1A2] = 0000000000580A00
+2015-06-11 13:14:07 - IsIntelTurboSupported - CPUID[0x6][EAX] = 00000075
+2015-06-11 13:14:07 - IsDisableIntelTurboSupported - not supported
+2015-06-11 13:14:07 - GetIntelArchitectureSpecificMSRInfo - Freq: 1800058, 0, 100003, Turbo: 0, 0, 0 (0)
+2015-06-11 13:14:07 - Getting memory size
+2015-06-11 13:14:07 - 0x000000010000 - 0x00000009FFFF (576KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x000000100000 - 0x000003FFFFFF (63MB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x000004000000 - 0x00000FFFEFFF (191MB) {Free Memory}
+2015-06-11 13:14:07 - 0x00000FFFF000 - 0x00001006CFFF (440KB) {Boot Services Code}
+2015-06-11 13:14:07 - 0x00001006D000 - 0x0000733DEFFF (1587MB) {Free Memory}
+2015-06-11 13:14:07 - 0x0000733DF000 - 0x00007363FFFF (2MB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x000073640000 - 0x000073648FFF (36KB) {Free Memory}
+2015-06-11 13:14:07 - 0x000073649000 - 0x00007364DFFF (20KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x00007364E000 - 0x000073652FFF (20KB) {Free Memory}
+2015-06-11 13:14:07 - 0x000073653000 - 0x0000736A3FFF (324KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x0000736A4000 - 0x0000736A8FFF (20KB) {Free Memory}
+2015-06-11 13:14:07 - 0x0000736A9000 - 0x0000736ADFFF (20KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x0000736AE000 - 0x0000736B2FFF (20KB) {Free Memory}
+2015-06-11 13:14:07 - 0x0000736B3000 - 0x0000736BBFFF (36KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x0000736BC000 - 0x0000736E0FFF (148KB) {Free Memory}
+2015-06-11 13:14:07 - 0x0000736E1000 - 0x00007371DFFF (244KB) {Boot Services Data}
+2015-06-11 13:14:07 - 0x00007371E000 - 0x000073720FFF (12KB) {Free Memory}
+2015-06-11 13:14:07 - 0x000073721000 - 0x000073724FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073725000 - 0x000073726FFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073727000 - 0x00007372CFFF (24KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007372D000 - 0x00007372EFFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007372F000 - 0x000073737FFF (36KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073738000 - 0x00007373BFFF (16KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007373C000 - 0x00007373CFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007373D000 - 0x00007373FFFF (12KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073740000 - 0x000073740FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073741000 - 0x000073742FFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073743000 - 0x000073743FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073744000 - 0x000073746FFF (12KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073747000 - 0x000073747FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073748000 - 0x000073749FFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007374A000 - 0x00007374AFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007374B000 - 0x00007374CFFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007374D000 - 0x00007375AFFF (56KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007375B000 - 0x00007375CFFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007375D000 - 0x00007375DFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007375E000 - 0x000073760FFF (12KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073761000 - 0x000073762FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073763000 - 0x000073764FFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073765000 - 0x000073766FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x000073767000 - 0x000073768FFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x000073769000 - 0x00007376BFFF (12KB) {Boot Services Data}
+2015-06-11 13:14:08 - 0x00007376C000 - 0x00007376DFFF (8KB) {Free Memory}
+2015-06-11 13:14:08 - 0x00007376E000 - 0x0000737B3FFF (280KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737B4000 - 0x0000737B6FFF (12KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737B7000 - 0x0000737B7FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737B8000 - 0x0000737B9FFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737BA000 - 0x0000737CEFFF (84KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737CF000 - 0x0000737D5FFF (28KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737D6000 - 0x0000737D7FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737D8000 - 0x0000737E4FFF (52KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737E5000 - 0x0000737EAFFF (24KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737EB000 - 0x0000737ECFFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737ED000 - 0x0000737EDFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737EE000 - 0x0000737EFFFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737F0000 - 0x0000737F0FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737F1000 - 0x0000737F2FFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737F3000 - 0x0000737F3FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737F4000 - 0x0000737F5FFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x0000737F6000 - 0x0000737FDFFF (32KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x0000737FE000 - 0x0000737FFFFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x000073800000 - 0x000073800FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x000073801000 - 0x000073803FFF (12KB) {Free Memory}
+2015-06-11 13:14:09 - 0x000073804000 - 0x000073804FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x000073805000 - 0x000073806FFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x000073807000 - 0x000073807FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x000073808000 - 0x000073809FFF (8KB) {Free Memory}
+2015-06-11 13:14:09 - 0x00007380A000 - 0x00007380AFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:09 - 0x00007380B000 - 0x00007380FFFF (20KB) {Free Memory}
+2015-06-11 13:14:09 - 0x000073810000 - 0x000073810FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073811000 - 0x000073812FFF (8KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073813000 - 0x000073816FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073817000 - 0x000073819FFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x00007381A000 - 0x00007381AFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x00007381B000 - 0x00007381DFFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x00007381E000 - 0x00007381FFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073820000 - 0x000073821FFF (8KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073822000 - 0x000073822FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073823000 - 0x00007382CFFF (40KB) {Free Memory}
+2015-06-11 13:14:10 - 0x00007382D000 - 0x000073830FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073831000 - 0x000073832FFF (8KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073833000 - 0x000073834FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073835000 - 0x000073837FFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073838000 - 0x000073839FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x00007383A000 - 0x00007383CFFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x00007383D000 - 0x00007383EFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x00007383F000 - 0x000073842FFF (16KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073843000 - 0x000073843FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073844000 - 0x000073846FFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073847000 - 0x000073847FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073848000 - 0x00007384BFFF (16KB) {Free Memory}
+2015-06-11 13:14:10 - 0x00007384C000 - 0x00007384EFFF (12KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x00007384F000 - 0x000073851FFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073852000 - 0x000073853FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:10 - 0x000073854000 - 0x000073856FFF (12KB) {Free Memory}
+2015-06-11 13:14:10 - 0x000073857000 - 0x000073857FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073858000 - 0x00007385EFFF (28KB) {Free Memory}
+2015-06-11 13:14:11 - 0x00007385F000 - 0x00007385FFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073860000 - 0x000073864FFF (20KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073865000 - 0x000073866FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073867000 - 0x00007386AFFF (16KB) {Free Memory}
+2015-06-11 13:14:11 - 0x00007386B000 - 0x00007386CFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x00007386D000 - 0x00007386EFFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x00007386F000 - 0x00007386FFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073870000 - 0x000073871FFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073872000 - 0x000073872FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073873000 - 0x000073875FFF (12KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073876000 - 0x000073876FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073877000 - 0x000073878FFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073879000 - 0x00007387DFFF (20KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x00007387E000 - 0x000073880FFF (12KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073881000 - 0x000073883FFF (12KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073884000 - 0x000073885FFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073886000 - 0x000073888FFF (12KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073889000 - 0x00007388AFFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x00007388B000 - 0x00007388EFFF (16KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x00007388F000 - 0x000073890FFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073891000 - 0x000073892FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073893000 - 0x000073895FFF (12KB) {Free Memory}
+2015-06-11 13:14:11 - 0x000073896000 - 0x000073897FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:11 - 0x000073898000 - 0x000073899FFF (8KB) {Free Memory}
+2015-06-11 13:14:11 - 0x00007389A000 - 0x00007389CFFF (12KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x00007389D000 - 0x00007389EFFF (8KB) {Free Memory}
+2015-06-11 13:14:12 - 0x00007389F000 - 0x0000738A2FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738A3000 - 0x0000738A4FFF (8KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738A5000 - 0x0000738B9FFF (84KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738BA000 - 0x0000738C3FFF (40KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738C4000 - 0x0000738C7FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738C8000 - 0x0000738CAFFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738CB000 - 0x0000738CCFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738CD000 - 0x0000738CFFFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738D0000 - 0x0000738D0FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738D1000 - 0x0000738D3FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738D4000 - 0x0000738D5FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738D6000 - 0x0000738D8FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738D9000 - 0x0000738E8FFF (64KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738E9000 - 0x0000738EBFFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738EC000 - 0x0000738F3FFF (32KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738F4000 - 0x0000738F8FFF (20KB) {Free Memory}
+2015-06-11 13:14:12 - 0x0000738F9000 - 0x0000738FEFFF (24KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x0000738FF000 - 0x000073901FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x000073902000 - 0x000073902FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x000073903000 - 0x000073905FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x000073906000 - 0x00007392DFFF (160KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x00007392E000 - 0x000073930FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x000073931000 - 0x000073931FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:12 - 0x000073932000 - 0x000073934FFF (12KB) {Free Memory}
+2015-06-11 13:14:12 - 0x000073935000 - 0x000073935FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000073936000 - 0x000073938FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000073939000 - 0x000073952FFF (104KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000073953000 - 0x000073DD3FFF (4MB) {Free Memory}
+2015-06-11 13:14:13 - 0x000073DD4000 - 0x000073EBDFFF (936KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000073EBE000 - 0x000073EC0FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000073EC1000 - 0x000073F12FFF (328KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000073F13000 - 0x000073F15FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000073F16000 - 0x000073F74FFF (380KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000073F75000 - 0x000073F77FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000073F78000 - 0x000074001FFF (552KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000074002000 - 0x000074004FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000074005000 - 0x000074053FFF (316KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000074054000 - 0x000074056FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000074057000 - 0x000074090FFF (232KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x000074091000 - 0x000074093FFF (12KB) {Free Memory}
+2015-06-11 13:14:13 - 0x000074094000 - 0x00007409DFFF (40KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x00007409E000 - 0x0000740A4FFF (28KB) {Free Memory}
+2015-06-11 13:14:13 - 0x0000740A5000 - 0x0000740A5FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x0000740A6000 - 0x0000740B1FFF (48KB) {Free Memory}
+2015-06-11 13:14:13 - 0x0000740B2000 - 0x0000740BBFFF (40KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x0000740BC000 - 0x0000740C0FFF (20KB) {Free Memory}
+2015-06-11 13:14:13 - 0x0000740C1000 - 0x0000740C6FFF (24KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x0000740C7000 - 0x0000740CBFFF (20KB) {Free Memory}
+2015-06-11 13:14:13 - 0x0000740CC000 - 0x0000740CCFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x0000740CD000 - 0x0000740D1FFF (20KB) {Free Memory}
+2015-06-11 13:14:13 - 0x0000740D2000 - 0x0000740D2FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:13 - 0x0000740D3000 - 0x0000740D8FFF (24KB) {Free Memory}
+2015-06-11 13:14:14 - 0x0000740D9000 - 0x0000740DAFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x0000740DB000 - 0x0000740E0FFF (24KB) {Free Memory}
+2015-06-11 13:14:14 - 0x0000740E1000 - 0x00007410EFFF (184KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x00007410F000 - 0x000074113FFF (20KB) {Free Memory}
+2015-06-11 13:14:14 - 0x000074114000 - 0x00007420DFFF (1000KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x00007420E000 - 0x000074219FFF (48KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x00007421A000 - 0x000074E8AFFF (12MB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000074E8B000 - 0x000074FFAFFF (1472KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x000074FFB000 - 0x000075030FFF (216KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000075031000 - 0x000075058FFF (160KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x000075059000 - 0x0000750E6FFF (568KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x0000750E7000 - 0x0000750ECFFF (24KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x0000750ED000 - 0x0000751BFFFF (844KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x0000751C0000 - 0x0000751CDFFF (56KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x0000751CE000 - 0x000075748FFF (5MB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000075749000 - 0x000075B86FFF (4MB) {Free Memory}
+2015-06-11 13:14:14 - 0x000075B87000 - 0x00007604AFFF (4MB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x00007604B000 - 0x0000760D8FFF (568KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x0000760D9000 - 0x000076187FFF (700KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000076188000 - 0x00007621EFFF (604KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x00007621F000 - 0x0000762FAFFF (880KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x0000762FB000 - 0x00007631BFFF (132KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x00007631C000 - 0x000076322FFF (28KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000076323000 - 0x00007632EFFF (48KB) {Boot Services Code}
+2015-06-11 13:14:14 - 0x00007632F000 - 0x000076330FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:14 - 0x000076331000 - 0x000076334FFF (16KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x000076335000 - 0x000076338FFF (16KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x000076339000 - 0x0000764BAFFF (1544KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000764BB000 - 0x0000764C5FFF (44KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000764C6000 - 0x0000764CBFFF (24KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000764CC000 - 0x0000764CCFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000764CD000 - 0x0000765A8FFF (880KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000765A9000 - 0x0000765AAFFF (8KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000765AB000 - 0x0000765BCFFF (72KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000765BD000 - 0x0000765BDFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000765BE000 - 0x0000765CEFFF (68KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000765CF000 - 0x0000765D0FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000765D1000 - 0x0000765EFFFF (124KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000765F0000 - 0x0000765F0FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000765F1000 - 0x0000766A9FFF (740KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000766AA000 - 0x0000766B0FFF (28KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000766B1000 - 0x0000766CDFFF (116KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000766CE000 - 0x0000766CEFFF (4KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000766CF000 - 0x000076735FFF (412KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x000076736000 - 0x000076B35FFF (4MB) {ACPI Non-volatile}
+2015-06-11 13:14:15 - 0x000076B36000 - 0x000076D36FFF (2MB) {Runtime Services Data}
+2015-06-11 13:14:15 - 0x000076D37000 - 0x0000771A5FFF (4MB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000771A6000 - 0x0000771C7FFF (136KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x0000771C8000 - 0x00007734EFFF (1564KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x00007734F000 - 0x000077369FFF (108KB) {Boot Services Code}
+2015-06-11 13:14:15 - 0x00007736A000 - 0x0000773FBFFF (584KB) {Boot Services Data}
+2015-06-11 13:14:15 - 0x0000773FC000 - 0x00007743CFFF (260KB) {Boot Services Code}
+2015-06-11 13:14:16 - 0x00007743D000 - 0x0000774FCFFF (768KB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x0000774FD000 - 0x00007750AFFF (56KB) {Boot Services Code}
+2015-06-11 13:14:16 - 0x00007750B000 - 0x0000780BFFFF (11MB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x0000780C0000 - 0x0000781DEFFF (1148KB) {Free Memory}
+2015-06-11 13:14:16 - 0x0000781DF000 - 0x0000782BFFFF (900KB) {Loader Code}
+2015-06-11 13:14:16 - 0x0000782C0000 - 0x0000784C1FFF (2MB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x0000784C2000 - 0x0000786BFFFF (2040KB) {Boot Services Code}
+2015-06-11 13:14:16 - 0x0000786C0000 - 0x0000787BFFFF (1024KB) {Runtime Services Code}
+2015-06-11 13:14:16 - 0x0000787C0000 - 0x0000788BFFFF (1024KB) {Runtime Services Data}
+2015-06-11 13:14:16 - 0x0000788C0000 - 0x0000788C3FFF (16KB) {Reserved Memory}
+2015-06-11 13:14:16 - 0x0000788C4000 - 0x0000789C3FFF (1024KB) {ACPI Non-volatile}
+2015-06-11 13:14:16 - 0x0000789C4000 - 0x000078A43FFF (512KB) {ACPI Tables}
+2015-06-11 13:14:16 - 0x000078A44000 - 0x00007CA87FFF (64MB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x00007CAB8000 - 0x00007CAB8FFF (4KB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x00007CAB9000 - 0x00007CAE3FFF (172KB) {Boot Services Code}
+2015-06-11 13:14:16 - 0x00007CAE4000 - 0x00007CAE5FFF (8KB) {Boot Services Data}
+2015-06-11 13:14:16 - 0x00007CAE6000 - 0x00007CAEFFFF (40KB) {Boot Services Code}
+2015-06-11 13:14:16 - 0x00007D2F0000 - 0x00007D31BFFF (176KB) {Reserved Memory}
+2015-06-11 13:14:16 - 0x00007D31C000 - 0x00007D35AFFF (252KB) {ACPI Tables}
+2015-06-11 13:14:16 - 0x00007D35B000 - 0x00007FFFFFFF (44MB) {Reserved Memory}
+2015-06-11 13:14:16 - 0x0000E0000000 - 0x0000EFFFFFFF (256MB) {Reserved Memory}
+2015-06-11 13:14:16 - 0x0000FE000000 - 0x0000FFFFFFFF (32MB) {Reserved Memory}
+2015-06-11 13:14:16 - 
+2015-06-11 13:14:16 - Available Memory: 0x6FEA7000 (1790MB)
+2015-06-11 13:14:16 - Reserved Memory: 0x218B9000 (536MB)
+2015-06-11 13:14:16 - mem_size - Number of entries: 249
+2015-06-11 13:14:16 - mem_size - Max address: 0x100000000
+2015-06-11 13:14:17 - mem_size - Total memory size(2440429568 bytes)
+2015-06-11 13:14:17 - Getting memory SPD info
+2015-06-11 13:14:17 - Searching PCI for SMBus Controller
+2015-06-11 13:14:17 - E5 chipset found: SMB_STAT[0]=C000003F
+2015-06-11 13:14:17 - MMCFGBase=E0000000 MMCFGLimit=EC000000
+2015-06-11 13:14:17 - SMBUS MMIO address=E3F78180
+2015-06-11 13:14:17 - SMB_STAT[0]=C000003F
+2015-06-11 13:14:17 -  Found SMBus device:  VID:8086 DID:3CA8 Bus:3F Dev:0F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:E3F78180 PCI Add:{3F:0F:00:0180} Rev:07 [Intel Sandy Bridge-E (IMC)]
+2015-06-11 13:14:17 - Finished searching PCI for SMBus Controller
+2015-06-11 13:14:17 - SMBIOS: Found SMBIOS BaseboardInformation (pbLinAddr=0x789B914D, FormattedLen=9, iTotalLen=74)
+2015-06-11 13:14:17 - Manufacturer: Dell Inc., Product: 07HNGV, Version: A01, S/N: ..CN1374039K00HX., AssetTag: , LocationInChassis: 
+2015-06-11 13:14:17 - [Intel Sandy Bridge-E (IMC) Bus:3F Dev:0F Fun:00] Looking for SPD
+2015-06-11 13:14:17 - Failed to retrieve SPD info. Enumerating PCI bus...
+2015-06-11 13:14:17 - Scanning PCI for devices:
+2015-06-11 13:14:17 -  VID:8086 DID:3C00 Bus:00 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:3C02 Bus:00 Dev:01 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:3C04 Bus:00 Dev:02 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:3C08 Bus:00 Dev:03 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:3C28 Bus:00 Dev:05 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:3C2A Bus:00 Dev:05 Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:1D3E Bus:00 Dev:11 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:17 -  VID:8086 DID:1D3A Bus:00 Dev:16 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D3B Bus:00 Dev:16 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D2D Bus:00 Dev:1A Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D10 Bus:00 Dev:1C Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:B5 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D18 Bus:00 Dev:1C Fun:04 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:B5 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D1E Bus:00 Dev:1C Fun:07 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:B5 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D26 Bus:00 Dev:1D Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:244E Bus:00 Dev:1E Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:A5 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D41 Bus:00 Dev:1F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1D02 Bus:00 Dev:1F Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1521 Bus:06 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:01 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:1521 Bus:06 Dev:00 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:01 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:1912 DID:0013 Bus:07 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2015-06-11 13:14:18 -  VID:1912 DID:0013 Bus:08 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2015-06-11 13:14:18 -  VID:1912 DID:0013 Bus:08 Dev:01 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2015-06-11 13:14:18 -  VID:1912 DID:0012 Bus:09 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2015-06-11 13:14:18 -  VID:102B DID:0534 Bus:0A Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3C80 Bus:3F Dev:08 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3C90 Bus:3F Dev:09 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3CC0 Bus:3F Dev:0A Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3CC1 Bus:3F Dev:0A Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3CC2 Bus:3F Dev:0A Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3CD0 Bus:3F Dev:0A Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:18 -  VID:8086 DID:3CE0 Bus:3F Dev:0B Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CE3 Bus:3F Dev:0B Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CE8 Bus:3F Dev:0C Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CE8 Bus:3F Dev:0C Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CF4 Bus:3F Dev:0C Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CF6 Bus:3F Dev:0C Fun:07 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CE8 Bus:3F Dev:0D Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CE8 Bus:3F Dev:0D Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CF5 Bus:3F Dev:0D Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CA0 Bus:3F Dev:0E Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3C46 Bus:3F Dev:0E Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 - E5 chipset found: SMB_STAT[0]=E40000FF
+2015-06-11 13:14:19 - MMCFGBase=E0000000 MMCFGLimit=EC000000
+2015-06-11 13:14:19 - SMBUS MMIO address=E3F78180
+2015-06-11 13:14:19 - SMB_STAT[0]=E40000FF
+2015-06-11 13:14:19 -  VID:8086 DID:3CA8 Bus:3F Dev:0F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:E3F78180 PCI Add:{3F:0F:00:0180} Rev:07 [Intel Sandy Bridge-E (IMC)]
+2015-06-11 13:14:19 -  VID:8086 DID:3C71 Bus:3F Dev:0F Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CAA Bus:3F Dev:0F Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CAB Bus:3F Dev:0F Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CAC Bus:3F Dev:0F Fun:04 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CAD Bus:3F Dev:0F Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CAE Bus:3F Dev:0F Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CB0 Bus:3F Dev:10 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CB1 Bus:3F Dev:10 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CB2 Bus:3F Dev:10 Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CB3 Bus:3F Dev:10 Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:19 -  VID:8086 DID:3CB4 Bus:3F Dev:10 Fun:04 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CB5 Bus:3F Dev:10 Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CB6 Bus:3F Dev:10 Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CB7 Bus:3F Dev:10 Fun:07 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CB8 Bus:3F Dev:11 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CE4 Bus:3F Dev:13 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3C43 Bus:3F Dev:13 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3CE6 Bus:3F Dev:13 Fun:04 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3C44 Bus:3F Dev:13 Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 -  VID:8086 DID:3C45 Bus:3F Dev:13 Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2015-06-11 13:14:20 - Finished searching PCI for SMBus Controller
+2015-06-11 13:14:20 - Getting SMBIOS Memory Device info...
+2015-06-11 13:14:20 - Found 24 Memory Devices
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct 0
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:20 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 1, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:20 - DeviceLocator: DIMM_A1 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct 1
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:20 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 1, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:20 - DeviceLocator: DIMM_A2 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct 2
+2015-06-11 13:14:20 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:20 - TotalWidth: 72, DataWidth: 64, Size: 2048, FormFactor: 9, DeviceSet: 1, MemoryType: 24, Speed: 1333, Attributes: 2, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 1066, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:20 - DeviceLocator: DIMM_A3 , BankLocator: , Manufacturer: 019800000000, S/N: 66CCD0FA, AssetTag: 00091900, PartNumber: 9905403-011.A02LF 
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 3
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 1, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A4 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 4
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 2, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A5 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 5
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 2, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A6 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 6
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 2, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A7 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 7
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 2, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A8 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 8
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:21 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 3, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:21 - DeviceLocator: DIMM_A9 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct 9
+2015-06-11 13:14:21 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 3, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_A10, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 10
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 3, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_A11, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 11
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 3, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_A12, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 12
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 4, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_B1 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 13
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 4, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_B2 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 14
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 4, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:22 - DeviceLocator: DIMM_B3 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct 15
+2015-06-11 13:14:22 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:22 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 4, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B4 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 16
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 5, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B5 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 17
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 5, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B6 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 18
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 5, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B7 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 19
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 5, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B8 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 20
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 6, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B9 , BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 21
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:23 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 6, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:23 - DeviceLocator: DIMM_B10, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:23 - DEBUG: Get SMB mem device Struct 22
+2015-06-11 13:14:24 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:24 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 6, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:24 - DeviceLocator: DIMM_B11, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:24 - DEBUG: Get SMB mem device Struct 23
+2015-06-11 13:14:24 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=34, iTotalLen=5E)
+2015-06-11 13:14:24 - TotalWidth: 72, DataWidth: 64, Size: 0, FormFactor: 9, DeviceSet: 6, MemoryType: 24, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2015-06-11 13:14:24 - DeviceLocator: DIMM_B12, BankLocator: , Manufacturer:             , S/N:         , AssetTag:         , PartNumber:                   
+2015-06-11 13:14:24 - Getting memory controller info
+2015-06-11 13:14:24 - find_mem_controller - found Intel Sandy Bridge-E (8086:3CA8) at 63-15-0
+2015-06-11 13:14:24 - Intel E5 Sandy Bridge chipset init
+2015-06-11 13:14:24 - SB-E MCMTR=00000100
+2015-06-11 13:14:24 - SB-E MMCFGBase=E0000000, MMCFGLim=EC000000
+2015-06-11 13:14:24 - [Channel 2] CORRERRCNT_0=00000000, CORRERRTHRSHLD_0=00010001
+2015-06-11 13:14:24 - [Channel 2] CORRERRCNT_1=00000000, CORRERRTHRSHLD_1=00010001
+2015-06-11 13:14:24 - [Channel 2] CORRERRCNT_2=00000000, CORRERRTHRSHLD_2=00010001
+2015-06-11 13:14:24 - [Channel 2] CORRERRCNT_3=00000000, CORRERRTHRSHLD_3=00010001
+2015-06-11 13:14:24 - [Channel 3] CORRERRCNT_0=00000000, CORRERRTHRSHLD_0=00010001
+2015-06-11 13:14:24 - [Channel 3] CORRERRCNT_1=00000000, CORRERRTHRSHLD_1=00010001
+2015-06-11 13:14:24 - [Channel 3] CORRERRCNT_2=00000000, CORRERRTHRSHLD_2=00010001
+2015-06-11 13:14:24 - [Channel 3] CORRERRCNT_3=00000000, CORRERRTHRSHLD_3=00010001
+2015-06-11 13:14:24 - [Channel 0] CORRERRCNT_0=00000000, CORRERRTHRSHLD_0=00010001
+2015-06-11 13:14:24 - [Channel 0] CORRERRCNT_1=00000000, CORRERRTHRSHLD_1=00010001
+2015-06-11 13:14:24 - [Channel 0] CORRERRCNT_2=00000000, CORRERRTHRSHLD_2=00010001
+2015-06-11 13:14:24 - [Channel 0] CORRERRCNT_3=00000000, CORRERRTHRSHLD_3=00010001
+2015-06-11 13:14:24 - [Channel 1] CORRERRCNT_0=00000000, CORRERRTHRSHLD_0=00010001
+2015-06-11 13:14:24 - [Channel 1] CORRERRCNT_1=00000000, CORRERRTHRSHLD_1=00010001
+2015-06-11 13:14:24 - [Channel 1] CORRERRCNT_2=00000000, CORRERRTHRSHLD_2=00010001
+2015-06-11 13:14:25 - [Channel 1] CORRERRCNT_3=00000000, CORRERRTHRSHLD_3=00010001
+2015-06-11 13:14:25 - SB-E MCG_CAP=0000000001000C10, MCG_STATUS=0000000000000000, ERROR_CONTROL=0000000000000002
+2015-06-11 13:14:25 - find_mem_controller - Intel Sandy Bridge-E (8086:3CA8) at 63-15-0
+2015-06-11 13:14:25 - find_mem_controller - Intel Sandy Bridge-E ECC mode: detect: no, correct: no, scrub: no, chipkill: no
+2015-06-11 13:14:25 - ECC polling disabled
+2015-06-11 13:14:25 - Successfully located the PI MpService protocol.
+2015-06-11 13:14:25 - BSP is Proc 0
+2015-06-11 13:14:25 - This platform has 4 logical processors of which 4 are enabled.
+2015-06-11 13:14:25 -  ProcID   Enabled   Type   Status   Pkg   Core  Thread
+2015-06-11 13:14:25 - --------  --------  ----  -------- -----  ----  ------
+2015-06-11 13:14:25 - 00000000      Y      BSP  00000007     0     0      0
+2015-06-11 13:14:25 - 00000002      Y       AP  00000006     0     1      0
+2015-06-11 13:14:25 - 00000004      Y       AP  00000006     0     2      0
+2015-06-11 13:14:25 - 00000006      Y       AP  00000006     0     3      0
+2015-06-11 13:14:25 - This platform has 4 logical processors of which 4 are enabled.
+2015-06-11 13:14:25 - Screen resolution is too low (800 x 600). Setting screen size to the minimum 1024 x 768
+2015-06-11 13:14:25 - New screen size = 1024 x 768
+2015-06-11 13:14:25 - Screen size = 1024 x 768
+2015-06-11 13:14:25 - Char width=8 height=19
+2015-06-11 13:14:25 - Installing default tests
+2015-06-11 13:14:25 - Loading images
+2015-06-11 13:14:33 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:33 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:37 - *** TEST SESSION - 2015-06-11 13:14:37 ***
+2015-06-11 13:14:37 - CPU selection mode = 2
+2015-06-11 13:14:37 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88360000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:37 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:37 - Starting pass #1
+2015-06-11 13:14:37 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:37 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:37 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2015-06-11 13:14:37 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:14:37 - MtSupportRunAllTests - Start time: 369 ms
+2015-06-11 13:14:37 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:14:38 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:14:38 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:14:38 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:14:38 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:14:38 - All memory ranges successfully locked
+2015-06-11 13:14:38 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:14:38 - MtSupportRunAllTests - Test execution time: 0.592
+2015-06-11 13:14:38 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:38 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:38 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2015-06-11 13:14:38 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:14:38 - MtSupportRunAllTests - Start time: 1305 ms
+2015-06-11 13:14:38 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:14:38 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:14:39 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:14:39 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:14:39 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:14:39 - All memory ranges successfully locked
+2015-06-11 13:14:40 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:14:40 - MtSupportRunAllTests - Test execution time: 1.309
+2015-06-11 13:14:40 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:40 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:40 - Running test #2 (Test 2 [Address test, own address])
+2015-06-11 13:14:40 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:14:40 - MtSupportRunAllTests - Start time: 3001 ms
+2015-06-11 13:14:40 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:14:40 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:14:40 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:14:40 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:14:40 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:14:40 - All memory ranges successfully locked
+2015-06-11 13:14:42 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:14:42 - MtSupportRunAllTests - Test execution time: 1.310
+2015-06-11 13:14:42 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:42 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:42 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2015-06-11 13:14:42 - MtSupportRunAllTests - Switching BSP from Proc# 0 --> 1
+2015-06-11 13:14:42 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:14:42 - MtSupportRunAllTests - Start time: 4690 ms
+2015-06-11 13:14:42 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:14:42 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:14:42 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:14:42 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:14:42 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:14:42 - All memory ranges successfully locked
+2015-06-11 13:14:48 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:14:48 - MtSupportRunAllTests - Test execution time: 6.411
+2015-06-11 13:14:48 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88340000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:14:48 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:14:49 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2015-06-11 13:14:49 - MtSupportRunAllTests - Switching BSP from Proc# 1 --> 2
+2015-06-11 13:14:49 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:14:49 - MtSupportRunAllTests - Start time: 11531 ms
+2015-06-11 13:14:49 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:14:49 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:14:49 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:14:49 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:14:49 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:14:49 - All memory ranges successfully locked
+2015-06-11 13:15:16 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:15:16 - MtSupportRunAllTests - Test execution time: 27.163
+2015-06-11 13:15:16 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88330000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:15:16 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:15:16 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2015-06-11 13:15:16 - MtSupportRunAllTests - Switching BSP from Proc# 2 --> 3
+2015-06-11 13:15:16 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:15:16 - MtSupportRunAllTests - Start time: 39079 ms
+2015-06-11 13:15:16 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:15:16 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:15:16 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:15:16 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:15:16 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:15:16 - All memory ranges successfully locked
+2015-06-11 13:15:45 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:15:45 - MtSupportRunAllTests - Test execution time: 28.932
+2015-06-11 13:15:45 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88370000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:15:45 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:15:45 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2015-06-11 13:15:45 - MtSupportRunAllTests - Switching BSP from Proc# 3 --> 0
+2015-06-11 13:15:45 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:15:46 - MtSupportRunAllTests - Start time: 68438 ms
+2015-06-11 13:15:46 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:15:46 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:15:46 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:15:46 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:15:46 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:15:46 - All memory ranges successfully locked
+2015-06-11 13:16:06 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:16:06 - MtSupportRunAllTests - Test execution time: 20.026
+2015-06-11 13:16:06 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88350000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:16:06 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:16:06 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2015-06-11 13:16:06 - MtSupportRunAllTests - Switching BSP from Proc# 0 --> 1
+2015-06-11 13:16:06 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:16:06 - MtSupportRunAllTests - Start time: 88844 ms
+2015-06-11 13:16:06 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:16:06 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:16:06 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:16:06 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:16:06 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:16:06 - All memory ranges successfully locked
+2015-06-11 13:18:28 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:18:28 - MtSupportRunAllTests - Test execution time: 141.514
+2015-06-11 13:18:28 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88330000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:18:28 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:18:28 - Running test #8 (Test 8 [Random number sequence])
+2015-06-11 13:18:28 - MtSupportRunAllTests - Switching BSP from Proc# 1 --> 2
+2015-06-11 13:18:28 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:18:28 - MtSupportRunAllTests - Start time: 230787 ms
+2015-06-11 13:18:28 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:18:28 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:18:28 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:18:28 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:18:28 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:18:28 - All memory ranges successfully locked
+2015-06-11 13:19:27 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:19:27 - MtSupportRunAllTests - Test execution time: 59.040
+2015-06-11 13:19:27 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88320000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:19:27 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:19:27 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2015-06-11 13:19:27 - MtSupportRunAllTests - Switching BSP from Proc# 2 --> 3
+2015-06-11 13:19:27 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:19:27 - MtSupportRunAllTests - Start time: 290202 ms
+2015-06-11 13:19:27 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:19:27 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:19:27 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:19:27 - Start memory range test (0x0 - 0x100000000)
+2015-06-11 13:19:27 - Pre-allocating memory ranges >=16MB first...
+2015-06-11 13:19:28 - All memory ranges successfully locked
+2015-06-11 13:23:10 - Cleanup - Releasing all memory ranges...
+2015-06-11 13:23:10 - MtSupportRunAllTests - Test execution time: 222.940
+2015-06-11 13:23:10 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88370000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:23:11 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:23:11 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2015-06-11 13:23:11 - MtSupportRunAllTests - Switching BSP from Proc# 3 --> 0
+2015-06-11 13:23:11 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:23:11 - MtSupportRunAllTests - Start time: 513560 ms
+2015-06-11 13:23:11 - ReadMemoryRanges - Available Pages = 458207
+2015-06-11 13:23:11 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:23:11 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:23:11 - Start bit fade test (0x0 - 0x100000000)
+2015-06-11 13:23:11 - Locking all memory ranges first...
+2015-06-11 13:23:11 - Memory range locked: 0x4000000 - 0xFFFF000 (1636224KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x1006D000 - 0x733DF000 (10680KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73640000 - 0x73649000 (10644KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x7364E000 - 0x73653000 (10624KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x736A4000 - 0x736A9000 (10604KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x736AE000 - 0x736B3000 (10584KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x736BC000 - 0x736E1000 (10436KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x7371E000 - 0x73721000 (10424KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73725000 - 0x73727000 (10416KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x7372D000 - 0x7372F000 (10408KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73738000 - 0x7373C000 (10392KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x7373D000 - 0x73740000 (10380KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73741000 - 0x73743000 (10372KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73744000 - 0x73747000 (10360KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x73748000 - 0x7374A000 (10352KB of available memory left)
+2015-06-11 13:23:11 - Memory range locked: 0x7374B000 - 0x7374D000 (10344KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7375B000 - 0x7375D000 (10336KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7375E000 - 0x73761000 (10324KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73763000 - 0x73765000 (10316KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73767000 - 0x73769000 (10308KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7376C000 - 0x7376E000 (10300KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737B4000 - 0x737B7000 (10288KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737B8000 - 0x737BA000 (10280KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737CF000 - 0x737D6000 (10252KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737D8000 - 0x737E5000 (10200KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737EB000 - 0x737ED000 (10192KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737EE000 - 0x737F0000 (10184KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737F1000 - 0x737F3000 (10176KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737F4000 - 0x737F6000 (10168KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x737FE000 - 0x73800000 (10160KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73801000 - 0x73804000 (10148KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73805000 - 0x73807000 (10140KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73808000 - 0x7380A000 (10132KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7380B000 - 0x73810000 (10112KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73811000 - 0x73813000 (10104KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73817000 - 0x7381A000 (10092KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7381B000 - 0x7381E000 (10080KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73820000 - 0x73822000 (10072KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73823000 - 0x7382D000 (10032KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73831000 - 0x73833000 (10024KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x73835000 - 0x73838000 (10012KB of available memory left)
+2015-06-11 13:23:12 - Memory range locked: 0x7383A000 - 0x7383D000 (10000KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x7383F000 - 0x73843000 (9984KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73844000 - 0x73847000 (9972KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73848000 - 0x7384C000 (9956KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x7384F000 - 0x73852000 (9944KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73854000 - 0x73857000 (9932KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73858000 - 0x7385F000 (9904KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73860000 - 0x73865000 (9884KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73867000 - 0x7386B000 (9868KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x7386D000 - 0x7386F000 (9860KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73870000 - 0x73872000 (9852KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73873000 - 0x73876000 (9840KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73877000 - 0x73879000 (9832KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x7387E000 - 0x73881000 (9820KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73893000 - 0x73896000 (9808KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738BA000 - 0x738C4000 (9768KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738C8000 - 0x738CB000 (9756KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738CD000 - 0x738D0000 (9744KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738D1000 - 0x738D4000 (9732KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738D6000 - 0x738D9000 (9720KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738E9000 - 0x738EC000 (9708KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738F4000 - 0x738F9000 (9688KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x738FF000 - 0x73902000 (9676KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73903000 - 0x73906000 (9664KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x7392E000 - 0x73931000 (9652KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73932000 - 0x73935000 (9640KB of available memory left)
+2015-06-11 13:23:13 - Memory range locked: 0x73936000 - 0x73939000 (9628KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x73953000 - 0x73DD4000 (5016KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x73EBE000 - 0x73EC1000 (5004KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x73F13000 - 0x73F16000 (4992KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x73F75000 - 0x73F78000 (4980KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x74002000 - 0x74005000 (4968KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x74054000 - 0x74057000 (4956KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x74091000 - 0x74094000 (4944KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x7409E000 - 0x740A5000 (4916KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740A6000 - 0x740B2000 (4868KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740BC000 - 0x740C1000 (4848KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740C7000 - 0x740CC000 (4828KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740CD000 - 0x740D2000 (4808KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740D3000 - 0x740D9000 (4784KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x740DB000 - 0x740E1000 (4760KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x7410F000 - 0x74114000 (4740KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75749000 - 0x75A7C000 (1464KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75ACF000 - 0x75AF8000 (1300KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75B10000 - 0x75B28000 (1204KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75B54000 - 0x75B58000 (1188KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75B5D000 - 0x75B60000 (1176KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75B70000 - 0x75B74000 (1160KB of available memory left)
+2015-06-11 13:23:14 - Memory range locked: 0x75B7E000 - 0x75B81000 (1148KB of available memory left)
+2015-06-11 13:23:14 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:23:14 - Memory range locked: 0x780C0000 - 0x780DF000 (1024KB of available memory left)
+2015-06-11 13:23:14 - All memory ranges successfully locked
+2015-06-11 13:23:15 - Starting Stage 0, Pattern=00000000
+2015-06-11 13:23:15 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:23:15 - Finished Stage 0, Pattern=00000000
+2015-06-11 13:23:46 - Slept for 30 seconds
+2015-06-11 13:24:16 - Slept for 60 seconds
+2015-06-11 13:24:47 - Slept for 91 seconds
+2015-06-11 13:25:17 - Slept for 121 seconds
+2015-06-11 13:25:48 - Slept for 152 seconds
+2015-06-11 13:26:18 - Slept for 182 seconds
+2015-06-11 13:26:49 - Slept for 213 seconds
+2015-06-11 13:27:19 - Slept for 243 seconds
+2015-06-11 13:27:50 - Slept for 274 seconds
+2015-06-11 13:28:15 - Starting Stage 1, Pattern=00000000
+2015-06-11 13:28:16 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:28:16 - Finished Stage 1, Pattern=00000000
+2015-06-11 13:28:16 - Starting Stage 0, Pattern=FFFFFFFF
+2015-06-11 13:28:17 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:28:17 - Finished Stage 0, Pattern=FFFFFFFF
+2015-06-11 13:28:47 - Slept for 30 seconds
+2015-06-11 13:29:18 - Slept for 60 seconds
+2015-06-11 13:29:48 - Slept for 91 seconds
+2015-06-11 13:30:19 - Slept for 121 seconds
+2015-06-11 13:30:49 - Slept for 152 seconds
+2015-06-11 13:31:20 - Slept for 182 seconds
+2015-06-11 13:31:50 - Slept for 213 seconds
+2015-06-11 13:32:21 - Slept for 243 seconds
+2015-06-11 13:32:51 - Slept for 274 seconds
+2015-06-11 13:33:17 - Starting Stage 1, Pattern=FFFFFFFF
+2015-06-11 13:33:18 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:33:18 - Finished Stage 1, Pattern=FFFFFFFF
+2015-06-11 13:33:18 - Cleanup - Unlocking all memory ranges...
+2015-06-11 13:33:18 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:33:18 - MtSupportRunAllTests - Test execution time: 607.312
+2015-06-11 13:33:18 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88340000 (Vendor ID: GenuineIntel 6 2D 7)
+2015-06-11 13:33:18 - MapTempIntel - MSR(0x1A2) =           580A00
+2015-06-11 13:33:18 - Running test #13 (Test 13 [Hammer test])
+2015-06-11 13:33:18 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2015-06-11 13:33:18 - MtSupportRunAllTests - Start time: 1121236 ms
+2015-06-11 13:33:18 - ReadMemoryRanges - Available Pages = 458208
+2015-06-11 13:33:18 - MtSupportRunAllTests - Enabling memory cache for test
+2015-06-11 13:33:18 - MtSupportRunAllTests - Enabling memory cache complete
+2015-06-11 13:33:19 - Start hammer test (0x0 - 0x100000000)
+2015-06-11 13:33:19 - Locking all memory ranges first...
+2015-06-11 13:33:19 - Memory range locked: 0x4000000 - 0xFFFF000 (1636228KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x1006D000 - 0x733DF000 (10684KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73640000 - 0x73649000 (10648KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7364E000 - 0x73653000 (10628KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x736A4000 - 0x736A9000 (10608KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x736AE000 - 0x736B3000 (10588KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x736BC000 - 0x736E1000 (10440KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7371E000 - 0x73721000 (10428KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73725000 - 0x73727000 (10420KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7372D000 - 0x7372F000 (10412KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73738000 - 0x7373C000 (10396KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7373D000 - 0x73740000 (10384KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73741000 - 0x73743000 (10376KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73744000 - 0x73747000 (10364KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73748000 - 0x7374A000 (10356KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7374B000 - 0x7374D000 (10348KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7375B000 - 0x7375D000 (10340KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7375E000 - 0x73761000 (10328KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73763000 - 0x73765000 (10320KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x73767000 - 0x73769000 (10312KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x7376C000 - 0x7376E000 (10304KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x737B4000 - 0x737B7000 (10292KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x737B8000 - 0x737BA000 (10284KB of available memory left)
+2015-06-11 13:33:19 - Memory range locked: 0x737CF000 - 0x737D6000 (10256KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737D8000 - 0x737E5000 (10204KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737EB000 - 0x737ED000 (10196KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737EE000 - 0x737F0000 (10188KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737F1000 - 0x737F3000 (10180KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737F4000 - 0x737F6000 (10172KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x737FE000 - 0x73800000 (10164KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73801000 - 0x73804000 (10152KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73805000 - 0x73807000 (10144KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73808000 - 0x7380A000 (10136KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x7380B000 - 0x73810000 (10116KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73811000 - 0x73813000 (10108KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73817000 - 0x7381A000 (10096KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x7381B000 - 0x7381E000 (10084KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73820000 - 0x73822000 (10076KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73823000 - 0x7382D000 (10036KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73831000 - 0x73833000 (10028KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73835000 - 0x73838000 (10016KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x7383A000 - 0x7383D000 (10004KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x7383F000 - 0x73843000 (9988KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73844000 - 0x73847000 (9976KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73848000 - 0x7384C000 (9960KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x7384F000 - 0x73852000 (9948KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73854000 - 0x73857000 (9936KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73858000 - 0x7385F000 (9908KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73860000 - 0x73865000 (9888KB of available memory left)
+2015-06-11 13:33:20 - Memory range locked: 0x73867000 - 0x7386B000 (9872KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x7386D000 - 0x7386F000 (9864KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73870000 - 0x73872000 (9856KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73873000 - 0x73876000 (9844KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73877000 - 0x73879000 (9836KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x7387E000 - 0x73881000 (9824KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73893000 - 0x73896000 (9812KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738BA000 - 0x738C4000 (9772KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738C8000 - 0x738CB000 (9760KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738CD000 - 0x738D0000 (9748KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738D1000 - 0x738D4000 (9736KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738D6000 - 0x738D9000 (9724KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738E9000 - 0x738EC000 (9712KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738F4000 - 0x738F9000 (9692KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x738FF000 - 0x73902000 (9680KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73903000 - 0x73906000 (9668KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x7392E000 - 0x73931000 (9656KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73932000 - 0x73935000 (9644KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73936000 - 0x73939000 (9632KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73953000 - 0x73DD4000 (5020KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73EBE000 - 0x73EC1000 (5008KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73F13000 - 0x73F16000 (4996KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x73F75000 - 0x73F78000 (4984KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x74002000 - 0x74005000 (4972KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x74054000 - 0x74057000 (4960KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x74091000 - 0x74094000 (4948KB of available memory left)
+2015-06-11 13:33:21 - Memory range locked: 0x7409E000 - 0x740A5000 (4920KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740A6000 - 0x740B2000 (4872KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740BC000 - 0x740C1000 (4852KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740C7000 - 0x740CC000 (4832KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740CD000 - 0x740D2000 (4812KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740D3000 - 0x740D9000 (4788KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x740DB000 - 0x740E1000 (4764KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x7410F000 - 0x74114000 (4744KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75749000 - 0x75A7C000 (1468KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75ACF000 - 0x75AF8000 (1304KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75B10000 - 0x75B28000 (1208KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75B54000 - 0x75B58000 (1192KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75B5D000 - 0x75B60000 (1180KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75B70000 - 0x75B74000 (1164KB of available memory left)
+2015-06-11 13:33:22 - Memory range locked: 0x75B7E000 - 0x75B82000 (1148KB of available memory left)
+2015-06-11 13:33:22 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:33:22 - Memory range locked: 0x780C0000 - 0x780DF000 (1024KB of available memory left)
+2015-06-11 13:33:22 - All memory ranges successfully locked
+2015-06-11 13:33:22 - Starting Stage 0, Pattern=00000000
+2015-06-11 13:33:23 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:33:23 - Finished Stage 0, Pattern=00000000
+2015-06-11 13:33:23 - Starting Stage 1, Pattern=00000000
+2015-06-11 13:37:13 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:37:13 - Finished Stage 1, Pattern=00000000
+2015-06-11 13:37:13 - Starting Stage 2, Pattern=00000000
+2015-06-11 13:37:14 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:37:14 - Finished Stage 2, Pattern=00000000
+2015-06-11 13:37:14 - Starting Stage 0, Pattern=FFFFFFFF
+2015-06-11 13:37:15 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:37:15 - Finished Stage 0, Pattern=FFFFFFFF
+2015-06-11 13:37:15 - Starting Stage 1, Pattern=FFFFFFFF
+2015-06-11 13:41:05 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:41:05 - Finished Stage 1, Pattern=FFFFFFFF
+2015-06-11 13:41:05 - Starting Stage 2, Pattern=FFFFFFFF
+2015-06-11 13:41:06 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:41:06 - Finished Stage 2, Pattern=FFFFFFFF
+2015-06-11 13:41:06 - Cleanup - Unlocking all memory ranges...
+2015-06-11 13:41:06 - Reducing memory range: 0x780C0000 - 0x781DF000 ==> 0x780C0000 - 0x780DF000
+2015-06-11 13:41:06 - MtSupportRunAllTests - Test execution time: 467.550
