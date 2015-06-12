@@ -13,58 +13,82 @@ public class SummAddr{
             long currentTime = 0;
             java.util.Date startTime;
             Scanner scanny = new Scanner(System.in);
-            ArrayList<File> files = new ArrayList<>();
             Map<Long, Integer> addrs = new HashMap<Long, Integer>();
+            Map<Long, String> addrsC = new HashMap<Long, String>();
             Map<Long, Integer> rows = new HashMap<Long, Integer>();
+            Map<Long, String> rowsC = new HashMap<Long, String>();
             Map<Long, Integer> cols = new HashMap<Long, Integer>();
-            if (args.length!=0){
-                int i = 0;
-                for (String s:args){
-                    files.add(new File(s));
-                    i++;
-                }
-            }else{
-                System.out.print("Enter log file names in order to be read. Enter blank line to quit: ");
-                String input = " ";
-                for (int i = 0; !input.equals(""); i++){
-                    input = scanny.nextLine();
-                    if (input.equals(""))
-                        break;
-                    files.add(new File(input));
-                }
-            }
-            System.out.print("Enter name of output file for summary: ");
+            Map<Long, String> colsC = new HashMap<Long, String>();
+            ArrayList<File> files = new ArrayList<>();
+            System.out.print("Enter directory: ");
+            File folder = new File(scanny.nextLine());
+            System.out.print("Specify start or end of filename? ");
+            String ext="";
+            switch (scanny.nextLine().toLowerCase().charAt(0)){
+                case 's':
+                    System.out.print("Enter beginning of logfile name: ");
+                    ext = scanny.nextLine();
+                    break;
+                case 'e':
+                    System.out.print("Enter logfile extension/end: ");
+                    ext = scanny.nextLine();
+                    break;
+            }            
+            File[] listF = folder.listFiles();
+            for (File f:listF){
+                if (f.getName().startsWith(ext))
+                    files.add(f);
+            }    
+            System.out.print("Enter name of output file: ");    
             newFile = scanny.nextLine();
             PrintWriter write = new PrintWriter(newFile);
             BufferedWriter bw = new BufferedWriter(write);
             String status;
-            for (File file:files){
-                BufferedReader br = new BufferedReader(new FileReader(file));
-                while (line != null){
-                    line = br.readLine();
+            int testNo = 0;
+            for (File f:files){
+                bw.write(testNo+"="+f.getName()+"\n");
+                BufferedReader br = new BufferedReader(new FileReader(f));
+                int flag=0;
+                System.out.println("Reading file"+testNo);
+                while ((line = br.readLine()) != null){
                     if (line == null){
                         break;
+                    }
+                    if (line.contains("test #")){
+                        flag = Integer.valueOf(line.substring(line.indexOf('#')+1, line.indexOf('(')-1));
+                        if (flag == 13)
+                            flag = 11;
                     }
                     if (line.contains("MC10_ADDR")){
                         status = line.substring(line.indexOf('=')+1, line.length());
                         long addr = Long.parseLong(status, 16);
-                        if (addrs.containsKey(addr))
+                        if (addrs.containsKey(addr)){
                             addrs.put(addr, addrs.get(addr)+1);
-                        else
+                            addrsC.put(addr, addrsC.get(addr)+" "+testNo+":"+flag);
+                        }else{
                             addrs.put(addr, 1);
+                            addrsC.put(addr, testNo+":"+flag);
+                        }
                         long row = addr/8192;
-                        if (rows.containsKey(row))
+                        if (rows.containsKey(row)){
                             rows.put(row, rows.get(row)+1);
-                        else
+                            rowsC.put(row, rowsC.get(row)+" "+testNo+":"+flag);
+                        }else{
                             rows.put(row, 1);
+                            rowsC.put(row, testNo+":"+flag);
+                        }
                         long column = addr%8192;
-                        if (cols.containsKey(column))
+                        if (cols.containsKey(column)){
                             cols.put(column, cols.get(column)+1);
-                        else
+                            colsC.put(column, colsC.get(column)+" "+testNo+":"+flag);
+                        }else{
                             cols.put(column, 1);
+                            colsC.put(column, testNo+":"+flag);
+                        }
                     }
                 }
                 br.close();
+                testNo++;
             }
             Comparator com = new Comparator(){
                 public int compare(Object obj1, Object obj2){
@@ -80,17 +104,20 @@ public class SummAddr{
             bw.write("Addresses:\n");
             for (Iterator<Map.Entry> it = aList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
-                bw.write(ent.getKey()+": "+ent.getValue()+" errors.\n");
+                bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+addrsC.get(ent.getKey()));
+                bw.newLine();
             }
             bw.write("Rows:\n");
             for (Iterator<Map.Entry> it = rList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
-                bw.write(ent.getKey()+": "+ent.getValue()+" errors.\n");
+                bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+rowsC.get(ent.getKey()));
+                bw.newLine();
             }
             bw.write("Columns:\n");
             for (Iterator<Map.Entry> it = cList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
-                bw.write(ent.getKey()+": "+ent.getValue()+" errors.\n");
+                bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+colsC.get(ent.getKey()));
+                bw.newLine();
             }
             bw.close();
         }
