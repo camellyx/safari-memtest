@@ -119,6 +119,7 @@ public class SummAddr{
                 bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+colsC.get(ent.getKey()));
                 bw.newLine();
             }
+            bw.write("Bit error rate: "+(((double)addrs.size())/9395240960.0));
             bw.close();
         }
         catch(FileNotFoundException ex){
