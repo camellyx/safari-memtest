@@ -10,10 +10,15 @@ public class SummAddr{
         String newFile = "default.summary";
         try{
             String line = "";
+            String line2 = "";
+            String line3 = "";
+            String line4 = "";
             long currentTime = 0;
             java.util.Date startTime;
             Scanner scanny = new Scanner(System.in);
             Map<Long, Integer> addrs = new HashMap<Long, Integer>();
+            Map<Long, Integer> aMax = new HashMap<Long, Integer>();
+            Map<Long, Integer> aMin = new HashMap<Long, Integer>();
             Map<Long, String> addrsC = new HashMap<Long, String>();
             Map<Long, Integer> rows = new HashMap<Long, Integer>();
             Map<Long, String> rowsC = new HashMap<Long, String>();
@@ -44,6 +49,7 @@ public class SummAddr{
             PrintWriter write = new PrintWriter(newFile);
             BufferedWriter bw = new BufferedWriter(write);
             String status;
+            int bits = 0;
             int testNo = 0;
             for (File f:files){
                 bw.write(testNo+"="+f.getName()+"\n");
@@ -60,14 +66,31 @@ public class SummAddr{
                             flag = 11;
                     }
                     if (line.contains("MC10_ADDR")){
+                        if (!line4.equals("")){
+                            line4 = line4.substring(55,line4.length());
+                            line4 = line4.substring(line4.indexOf('C'), line4.length());
+                            bits = Integer.valueOf(line4.substring(line4.indexOf('C')+22, line4.indexOf(',')));
+                        }
                         status = line.substring(line.indexOf('=')+1, line.length());
                         long addr = Long.parseLong(status, 16);
                         if (addrs.containsKey(addr)){
                             addrs.put(addr, addrs.get(addr)+1);
                             addrsC.put(addr, addrsC.get(addr)+" "+testNo+":"+flag);
+                            if (aMax.get(addr)<bits){
+                                aMax.put(addr, bits);
+                                //System.out.println("Updating max "+addr);
+                            }else if (bits<aMin.get(addr)){
+                                aMin.put(addr, bits);
+                                //System.out.println("Updating min "+addr);
+                            }
+
                         }else{
                             addrs.put(addr, 1);
                             addrsC.put(addr, testNo+":"+flag);
+                            aMax.put(addr, bits);
+                            //System.out.println("Making max "+addr);
+                            aMin.put(addr, bits);
+                            //System.out.println("Making min "+addr);
                         }
                         long row = addr/8192;
                         if (rows.containsKey(row)){
@@ -86,6 +109,9 @@ public class SummAddr{
                             colsC.put(column, testNo+":"+flag);
                         }
                     }
+                    line4 = line3;
+                    line3 = line2;
+                    line2 = line;
                 }
                 br.close();
                 testNo++;
@@ -101,11 +127,27 @@ public class SummAddr{
             Collections.sort(rList, com);
             List cList = new LinkedList(cols.entrySet());
             Collections.sort(cList, com);
+            List mnList = new LinkedList(aMin.entrySet());
+            List mxList = new LinkedList(aMax.entrySet());
+            double minTotal = 0;
+            double maxTotal = 0;
             bw.write("Addresses:\n");
             for (Iterator<Map.Entry> it = aList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
                 bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+addrsC.get(ent.getKey()));
                 bw.newLine();
+            }
+            for (Iterator<Map.Entry> it = mnList.iterator();it.hasNext();){
+                Map.Entry ent = it.next();
+                if (ent.getKey()!=0){
+                    minTotal += (int)ent.getValue();
+                }
+            }
+            for (Iterator<Map.Entry> it = mxList.iterator();it.hasNext();){
+                Map.Entry ent = it.next();
+                if (ent.getKey()!=0){
+                    maxTotal += (int)ent.getValue();
+                }
             }
             bw.write("Rows:\n");
             for (Iterator<Map.Entry> it = rList.iterator();it.hasNext();){
@@ -119,7 +161,12 @@ public class SummAddr{
                 bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+colsC.get(ent.getKey()));
                 bw.newLine();
             }
-            bw.write("Bit error rate: "+(((double)addrs.size())/9395240960.0));
+            bw.write("Bit error rate (addresses, excluding 0) : "+(((double)addrs.size()-1)/9395240960.0));
+            bw.newLine();
+            bw.write("Bit error rate (minimum bits, excluding 0) : "+(minTotal/(9395240960.0*8)));
+            bw.newLine();
+            bw.write("Bit error rate (maximum bits, excluding 0) : "+(maxTotal/(9395240960.0*8)));
+            bw.newLine();
             bw.close();
         }
         catch(FileNotFoundException ex){

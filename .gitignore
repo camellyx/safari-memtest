@@ -1,3 +1,4 @@
+# Compiled Java
 *.class
 
 # Object files
@@ -29,3 +30,6 @@
 *.i*86
 *.x86_64
 *.hex
+
+# Parsed log output
+*.parse
