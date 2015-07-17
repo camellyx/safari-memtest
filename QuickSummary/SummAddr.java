@@ -18,34 +18,43 @@ public class SummAddr{
             Scanner scanny = new Scanner(System.in);
             Map<Long, Integer> addrs = new HashMap<Long, Integer>();
             Map<Long, Integer> aMax = new HashMap<Long, Integer>();
-            Map<Long, Integer> aMin = new HashMap<Long, Integer>();
+            Map<Long, Integer> maxPoss = new HashMap<Long, Integer>();
             Map<Long, String> addrsC = new HashMap<Long, String>();
             Map<Long, Integer> rows = new HashMap<Long, Integer>();
             Map<Long, String> rowsC = new HashMap<Long, String>();
             Map<Long, Integer> cols = new HashMap<Long, Integer>();
             Map<Long, String> colsC = new HashMap<Long, String>();
             ArrayList<File> files = new ArrayList<>();
-            System.out.print("Enter directory: ");
-            File folder = new File(scanny.nextLine());
-            System.out.print("Specify start or end of filename? ");
-            String ext="";
-            switch (scanny.nextLine().toLowerCase().charAt(0)){
-                case 's':
-                    System.out.print("Enter beginning of logfile name: ");
-                    ext = scanny.nextLine();
-                    break;
-                case 'e':
-                    System.out.print("Enter logfile extension/end: ");
-                    ext = scanny.nextLine();
-                    break;
-            }            
-            File[] listF = folder.listFiles();
-            for (File f:listF){
-                if (f.getName().startsWith(ext))
-                    files.add(f);
-            }    
-            System.out.print("Enter name of output file: ");    
-            newFile = scanny.nextLine();
+            if (args.length>=1){
+                files.add(new File("./"+args[0]));
+            }else{
+                System.out.print("Enter directory: ");
+                File folder = new File(scanny.nextLine());
+                System.out.print("Specify start or end of filename? ");
+                String ext="";
+                switch (scanny.nextLine().toLowerCase().charAt(0)){
+                    case 's':
+                        System.out.print("Enter beginning of logfile name: ");
+                        ext = scanny.nextLine();
+                        break;
+                    case 'e':
+                        System.out.print("Enter logfile extension/end: ");
+                        ext = scanny.nextLine();
+                        break;
+                }            
+                File[] listF = folder.listFiles();
+                for (File f:listF){
+                    if (f.getName().startsWith(ext))
+                        files.add(f);
+                }
+
+            }
+            if (args.length>=2){
+                newFile = args[1];
+            }else{
+                System.out.print("Enter name of output file: ");    
+                newFile = scanny.nextLine();
+            }
             PrintWriter write = new PrintWriter(newFile);
             BufferedWriter bw = new BufferedWriter(write);
             String status;
@@ -78,19 +87,13 @@ public class SummAddr{
                             addrsC.put(addr, addrsC.get(addr)+" "+testNo+":"+flag);
                             if (aMax.get(addr)<bits){
                                 aMax.put(addr, bits);
-                                //System.out.println("Updating max "+addr);
-                            }else if (bits<aMin.get(addr)){
-                                aMin.put(addr, bits);
-                                //System.out.println("Updating min "+addr);
                             }
-
+                            maxPoss.put(addr, maxPoss.get(addr)+bits);
                         }else{
                             addrs.put(addr, 1);
                             addrsC.put(addr, testNo+":"+flag);
                             aMax.put(addr, bits);
-                            //System.out.println("Making max "+addr);
-                            aMin.put(addr, bits);
-                            //System.out.println("Making min "+addr);
+                            maxPoss.put(addr, bits);
                         }
                         long row = addr/8192;
                         if (rows.containsKey(row)){
@@ -121,14 +124,21 @@ public class SummAddr{
                     return (((Comparable)(((Map.Entry) obj1).getValue())).compareTo((Comparable)(((Map.Entry) obj2).getValue())));
                 }
             };
+            Comparator comx = new Comparator(){
+                public int compare(Object obj1, Object obj2){
+                    return (((Comparable)(((Map.Entry) obj1).getKey())).compareTo((Comparable)(((Map.Entry) obj2).getKey())));
+                }
+            };
             List aList = new LinkedList(addrs.entrySet());
             Collections.sort(aList, com);
             List rList = new LinkedList(rows.entrySet());
             Collections.sort(rList, com);
             List cList = new LinkedList(cols.entrySet());
             Collections.sort(cList, com);
-            List mnList = new LinkedList(aMin.entrySet());
+            List mxpList = new LinkedList(maxPoss.entrySet());
+            Collections.sort(mxpList, comx);
             List mxList = new LinkedList(aMax.entrySet());
+            Collections.sort(mxList, comx);
             double minTotal = 0;
             double maxTotal = 0;
             bw.write("Addresses:\n");
@@ -137,17 +147,16 @@ public class SummAddr{
                 bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+addrsC.get(ent.getKey()));
                 bw.newLine();
             }
-            for (Iterator<Map.Entry> it = mnList.iterator();it.hasNext();){
-                Map.Entry ent = it.next();
-                if (ent.getKey()!=0){
-                    minTotal += (int)ent.getValue();
-                }
-            }
-            for (Iterator<Map.Entry> it = mxList.iterator();it.hasNext();){
-                Map.Entry ent = it.next();
-                if (ent.getKey()!=0){
-                    maxTotal += (int)ent.getValue();
-                }
+            Iterator<Map.Entry> mxp = mxpList.iterator();
+            Iterator<Map.Entry> mx = mxList.iterator();
+            while (mx.hasNext()){
+                Map.Entry max = mx.next();
+                Map.Entry maxp = mxp.next();
+                if ((int)maxp.getValue()>8)
+                    maxTotal+=8;
+                else
+                    maxTotal+=(int)maxp.getValue();
+                minTotal+=(int)max.getValue();
             }
             bw.write("Rows:\n");
             for (Iterator<Map.Entry> it = rList.iterator();it.hasNext();){
