@@ -17,8 +17,12 @@ public class SummAddr{
             java.util.Date startTime;
             Scanner scanny = new Scanner(System.in);
             Map<Long, Integer> addrs = new HashMap<Long, Integer>();
-            Map<Long, ArrayList<Integer>> v1 = new HashMap<Long, ArrayList<Integer>>();
-            Map<Long, ArrayList<Double>> v2 = new HashMap<Long, ArrayList<Double>>();
+            int x1 = 0;
+            int y1 = 0;
+            int z1 = 0;
+            double x2 = 0;
+            double y2 = 0;
+            double z2 = 0;
             Map<Long, String> addrsC = new HashMap<Long, String>();
             Map<Long, Integer> rows = new HashMap<Long, Integer>();
             Map<Long, String> rowsC = new HashMap<Long, String>();
@@ -60,8 +64,8 @@ public class SummAddr{
             String status;
             int bits = 0;
             int testNo = 0;
+            Map<Long, ArrayList<Integer>[]> failed = new HashMap<Long, ArrayList<Integer>[]>();
             for (File f:files){
-                Map<Long, ArrayList<Integer>> failed = new HashMap<Long, ArrayList<Integer>>();
                 bw.write(testNo+"="+f.getName()+"\n");
                 BufferedReader br = new BufferedReader(new FileReader(f));
                 int flag=0;
@@ -91,10 +95,16 @@ public class SummAddr{
                             addrsC.put(addr, testNo+":"+flag);
                         }
                         if (failed.containsKey(addr)){
-                            failed.get(addr).add(bits);
+                            if (failed.get(addr)[flag]!=null)
+                                failed.get(addr)[flag].add(bits);
+                            else{
+                                failed.get(addr)[flag]=new ArrayList<Integer>();
+                                failed.get(addr)[flag].add(bits);
+                            }
                         }else{
-                            failed.put(addr, new ArrayList<Integer>());
-                            failed.get(addr).add(bits);
+                            failed.put(addr, new ArrayList[12]);
+                            failed.get(addr)[flag]=new ArrayList<Integer>();
+                            failed.get(addr)[flag].add(bits);
                         }
                         long row = addr/8192;
                         if (rows.containsKey(row)){
@@ -118,32 +128,67 @@ public class SummAddr{
                     line2 = line;
                 }
                 br.close();
-                List failedL = new LinkedList(failed.entrySet());
-                for (Iterator<Map.Entry> it = failedL.iterator();it.hasNext();){
-                    Map.Entry aList = it.next();
-                    int minBits = ((ArrayList<Integer>)aList.getValue()).get(0);
+                testNo++;
+            }//end for files
+            List failedL = new LinkedList(failed.entrySet());
+            Iterator fi = failedL.iterator();
+            while (fi.hasNext()){
+                Map.Entry nextAddr = (Map.Entry)fi.next();
+                if ((Long)nextAddr.getKey()!=0){
+                ArrayList<Integer>[] failures = (ArrayList<Integer>[])nextAddr.getValue();
+                int min1 = 600;
+                int max1 = 0;
+                int sum1 = 0;
+                double min2 = 600;
+                double max2 = 0;
+                double sum2 = 0;
+                double[] v2 = new double[12];
+                int[] v1 = new int[12];
+                for (int i=0;i<12;i++){
+                    int min = 600;
                     int sum = 0;
-                    for (int bits2:(ArrayList<Integer>)aList.getValue()){
-                        if (bits2<minBits){
-                            minBits = bits2;
+                    int num = 0;
+                    if (failures[i]!=null){
+                        ArrayList<Integer> al = failures[i];
+                        for (Integer j:al){
+                            if (j<min){
+                                min = j;
+                            }
+                            sum+=j;
+                            num++;
                         }
-                        sum+=bits2;
-                    }
-                    double averageBits = (double)sum/(double)((ArrayList<Integer>)aList.getValue()).size();
-                    if (v1.containsKey(aList.getKey())){
-                        v1.get(aList.getKey()).add(minBits);
+                        v1[i]=min;
+                        v2[i]=((double)sum)/((double)num);
                     }else{
-                        v1.put((Long)aList.getKey(), new ArrayList<Integer>());
-                        v1.get(aList.getKey()).add(minBits);
-                    }
-                    if (v2.containsKey(aList.getKey())){
-                        v2.get(aList.getKey()).add(averageBits);
-                    }else{
-                        v2.put((Long)aList.getKey(), new ArrayList<Double>());
-                        v2.get(aList.getKey()).add(averageBits);
+                        v1[i]=0;
+                        v2[i]=0;
                     }
                 }
-                testNo++;
+                for (int v:v1){
+                    if (v<min1)
+                        min1 = v;
+                    if (v>max1)
+                        max1 = v;
+                    sum1+=v;
+                }
+                for (double b:v2){
+                    if (b<min2)
+                        min2 = b;
+                    if (b>max2)
+                        max2 = b;
+                    sum2 +=b;
+                }
+                if (z1>512)
+                    z1 = 512;
+                if (z2>512)
+                    z2 = 512;
+                x1 += min1;
+                y1 += max1;
+                z1 += sum1;
+                x2 += min2;
+                y2 += max2;
+                z2 += sum2;
+                }
             }
             Comparator com = new Comparator(){
                 public int compare(Object obj1, Object obj2){
@@ -161,62 +206,12 @@ public class SummAddr{
             Collections.sort(rList, com);
             List cList = new LinkedList(cols.entrySet());
             Collections.sort(cList, com);
-            List v1L = new LinkedList(v1.entrySet());
-            Collections.sort(v1L, comx);
-            List v2L = new LinkedList(v2.entrySet());
-            Collections.sort(v2L, comx);
-            int tv1Max = 0;
-            double tv2Max = 0;
-            int tv1Min = 0;
-            double tv2Min = 0;
-            int tv1Sum = 0;
-            double tv2Sum = 0;
             /*bw.write("Addresses:\n");
             for (Iterator<Map.Entry> it = aList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
                 bw.write(ent.getKey()+": "+ent.getValue()+" errors: "+addrsC.get(ent.getKey()));
                 bw.newLine();
             }*/
-            Iterator<Map.Entry> v1i = v1L.iterator();
-            Iterator<Map.Entry> v2i = v2L.iterator();
-            while (v1i.hasNext()){
-                int v1Max = 0;
-                double v2Max = 0;
-                int v1Min = 600;
-                double v2Min = 600;
-                int v1Sum = 0;
-                double v2Sum = 0;
-                Map.Entry v1e = v1i.next();
-                Map.Entry v2e = v2i.next();
-                if ((long)v1e.getKey()!=0){
-                    for (int v1Bits:(ArrayList<Integer>)(v1e.getValue())){
-                        if (v1Max<v1Bits)
-                            v1Max=v1Bits;
-                        if (v1Min>v1Bits)
-                            v1Min=v1Bits;
-                        v1Sum+=v1Bits;
-                    }
-                }
-                if ((long)v2e.getKey()!=0){
-                    for (double v2Bits:(ArrayList<Double>)(v2e.getValue())){
-                        if (v2Max<v2Bits)
-                            v2Max=v2Bits;
-                        if (v2Min>v2Bits)
-                            v2Min=v2Bits;
-                        v2Sum+=v2Bits;
-                    }
-                }
-                if (v2Sum>512)
-                    v2Sum=512;
-                if (v1Sum>512)
-                    v1Sum=512;
-                tv1Max+=v1Max;
-                tv2Max+=v2Max;
-                tv1Min+=v1Min;
-                tv2Min+=v2Min;
-                tv1Sum+=v1Sum;
-                tv2Sum+=v2Sum;
-            }
             /*bw.write("Rows:\n");
             for (Iterator<Map.Entry> it = rList.iterator();it.hasNext();){
                 Map.Entry ent = it.next();
@@ -231,17 +226,17 @@ public class SummAddr{
             }
             bw.write("Bit error rate (addresses, excluding 0) : "+(((double)addrs.size()-1)/9395240960.0));
             bw.newLine();*/
-            bw.write("Bit error rate (v1 minimum bits, excluding 0) : "+(tv1Min/(9395240960.0*8)));
+            bw.write("Bit error rate (v1 minimum bits, excluding 0) : "+(x1/(9395240960.0*8)));
             bw.newLine();
-            bw.write("Bit error rate (v2 minimum bits, excluding 0) : "+(tv2Min/(9395240960.0*8)));
+            bw.write("Bit error rate (v2 minimum bits, excluding 0) : "+(x2/(9395240960.0*8)));
             bw.newLine();
-            bw.write("Bit error rate (v1 maximum bits, excluding 0) : "+(tv1Max/(9395240960.0*8)));
+            bw.write("Bit error rate (v1 maximum bits, excluding 0) : "+(y1/(9395240960.0*8)));
             bw.newLine();
-            bw.write("Bit error rate (v2 maximum bits, excluding 0) : "+(tv2Max/(9395240960.0*8)));
+            bw.write("Bit error rate (v2 maximum bits, excluding 0) : "+(y2/(9395240960.0*8)));
             bw.newLine();
-            bw.write("Bit error rate (v1 sum bits, excluding 0) : "+(tv1Sum/(9395240960.0*8)));
+            bw.write("Bit error rate (v1 sum bits, excluding 0) : "+(z1/(9395240960.0*8)));
             bw.newLine();
-            bw.write("Bit error rate (v2 sum bits, excluding 0) : "+(tv2Sum/(9395240960.0*8)));
+            bw.write("Bit error rate (v2 sum bits, excluding 0) : "+(z2/(9395240960.0*8)));
             bw.close();
         }
         catch(FileNotFoundException ex){
